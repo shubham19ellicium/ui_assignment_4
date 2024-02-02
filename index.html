@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script defer src="./script/script.js"></script>
+</head>
+<body>
+
+    <div class="fill-details-container" id="pop-for-upload">
+        <div class="fill-details-block">
+            <div class="fill-deteil-div">
+                <label for="company-name"><b>Company Name</b></label>
+                <input class="pop-up-input" type="text" placeholder="Company name" name="company-name" id="company-name-id" maxlength="50" required>
+            </div>
+            <div class="fill-deteil-div">
+                <label for="level"><b>Level</b></label>
+                <input class="pop-up-input" type="text" placeholder="Level" name="level" id="level-id" maxlength="50" >
+            </div>
+            <div class="fill-deteil-div">
+                <label for="email"><b>Parent</b></label>
+                <input class="pop-up-input" type="text" placeholder="Parent" name="company-name" id="parent-id" maxlength="50" >
+            </div>
+            <div class="fill-deteil-div">
+                <label for="email"><b>Partner Type</b></label>
+                <input class="pop-up-input" type="text"  name="Partner-type" placeholder="Partner Type" id="partner-type-id" maxlength="50" >
+            </div>
+            <div class="fill-deteil-div">
+                <label for="email"><b>Source</b></label>
+                <input class="pop-up-input" type="text"  name="source" placeholder="Source" id="source-id" maxlength="50" >
+            </div>
+            <div class="fill-deteil-div">
+                <label for="email"><b>Industry</b></label>
+                <input class="pop-up-input" type="text"  name="industry" placeholder="Industry" id="industry-id" maxlength="50" >
+            </div>
+            <div class="fill-deteil-div">
+                <label for="email"><b>NAICS code</b></label>
+                <input class="pop-up-input" type="text"  name="naics" placeholder="NAICS code" id="naics-code-id" maxlength="50" >
+            </div>
+            <div class="fill-deteil-div">
+                <label for="email"><b>HQ Location</b></label>
+                <input class="pop-up-input" type="text"  name="hq" placeholder="HQ Location" id="hq-location-id" maxlength="50" >
+            </div>
+            <div class="pop-up-button-block">
+                <button class="close-btn" onclick="handleUploadData()">Upload</button>
+                <button class="close-btn" onclick="handleClosePopup()">Close</button>
+            </div>             
+        </div>
+    </div>
+
+    <div class="fill-details-container" id="pop-up-update-id">
+        <div class="fill-details-block">
+            <div class="fill-deteil-div">
+                <label for="company-name"><b>ID</b></label>
+                <input class="pop-up-input" type="text" placeholder="ID" name="company-name" id="id-update-id" maxlength="50" disabled>
+            </div>
+            <div class="fill-deteil-div">
+                <label for="company-name"><b>Company Name</b></label>
+                <input class="pop-up-input" type="text" placeholder="Company name" name="company-name" id="company-name-update-id" maxlength="50" required>
+            </div>
+            <div class="fill-deteil-div">
+                <label for="level"><b>Level</b></label>
+                <input class="pop-up-input" type="text" placeholder="Level" name="level" id="level-update-id" maxlength="50" >
+            </div>
+            <div class="fill-deteil-div">
+                <label for="email"><b>Parent</b></label>
+                <input class="pop-up-input" type="text" placeholder="Parent" name="company-name" id="parent-update-id" maxlength="50" >
+            </div>
+            <div class="fill-deteil-div">
+                <label for="email"><b>Partner Type</b></label>
+                <input class="pop-up-input" type="text"  name="Partner-type" placeholder="Partner" id="partner-type-update-id" maxlength="50" >
+            </div>
+            <div class="fill-deteil-div">
+                <label for="email"><b>Source</b></label>
+                <input class="pop-up-input" type="text"  name="source" placeholder="Source" id="source-update-id" maxlength="50" >
+            </div>
+            <div class="fill-deteil-div">
+                <label for="email"><b>Industry</b></label>
+                <input class="pop-up-input" type="text"  name="industry" placeholder="Industry" id="industry-update-id" maxlength="50" >
+            </div>
+            <div class="fill-deteil-div">
+                <label for="email"><b>NAICS code</b></label>
+                <input class="pop-up-input" type="text"  name="naics" placeholder="NAICS code" id="naics-code-update-id" maxlength="50" >
+            </div>
+            <div class="fill-deteil-div">
+                <label for="email"><b>HQ Location</b></label>
+                <input class="pop-up-input" type="text"  name="hq" placeholder="HQ Location" id="hq-location-update-id" maxlength="50" >
+            </div>
+            <div class="pop-up-button-block">
+                <button class="close-btn" onclick="updateDetails(event)">Upload</button>
+                <button class="close-btn" onclick="handleClosePopup()">Close</button>
+            </div>             
+        </div>
+    </div>
+
+    <div class="upper-elements-block">
+        <div class="post-data-block">
+            <button onclick="displayPostForm()" class="post-data">
+                Post Data
+            </button>
+        </div>
+        <div class="search-block">
+            <input class="search-input" id="search-input-id" type="text" maxlength="30">
+            <button onclick="submitSearchValue()" class="search-button">Submit</button>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <div>Company_Name</div>
+                        <div class="table-icon-block">
+                            <img src="./assets/images/up.png" class="asc-desc" onclick="renderAscData(1)" id="up"></img>  
+                            <img src="./assets/images/down.png" class="asc-desc" onclick="renderDescData(1)" id="down"></img> 
+                        </div>
+                         
+                    <th>
+                        <div>Level</div>
+                        <div class="table-icon-block">
+                            <img src="./assets/images/up.png" class="asc-desc" onclick="renderAscData(2)" id="up"></img>  
+                            <img src="./assets/images/down.png" class="asc-desc" onclick="renderDescData(2)" id="down"></img> 
+                        </div>
+                    </th>
+                    <th>
+                        <div>Parent</div>
+                        <div class="table-icon-block">
+                            <img src="./assets/images/up.png" class="asc-desc" onclick="renderAscData(3)" id="up"></img>  
+                            <img src="./assets/images/down.png" class="asc-desc" onclick="renderDescData(3)" id="down"></img>
+                        </div>
+                    </th>
+                    <th>
+                        <div>Partner_Type</div>
+                        <div class="table-icon-block">
+                            <img src="./assets/images/up.png" class="asc-desc" onclick="renderAscData(4)" id="up"></img>  
+                            <img src="./assets/images/down.png" class="asc-desc" onclick="renderDescData(4)" id="down"></img>
+                        </div>
+                    </th>
+                    <th>
+                        <div>Source</div>
+                        <div class="table-icon-block">
+                            <img src="./assets/images/up.png" class="asc-desc" onclick="renderAscData(5)" id="up"></img>  
+                            <img src="./assets/images/down.png" class="asc-desc" onclick="renderDescData(5)" id="down"></img>
+                        </div>
+                    </th>
+                    <th>
+                        <div>Industry</div>
+                        <div class="table-icon-block">
+                            <img src="./assets/images/up.png" class="asc-desc" onclick="renderAscData(6)" id="up"></img>  
+                            <img src="./assets/images/down.png" class="asc-desc" onclick="renderDescData(6)" id="down"></img>
+                        </div>
+                    </th>
+                    <th>
+                        <div >NAICS_code</div>
+                        <div class="table-icon-block">
+                            <img src="./assets/images/up.png" class="asc-desc" onclick="renderAscData(7)" id="up"></img>  
+                            <img src="./assets/images/down.png" class="asc-desc" onclick="renderDescData(7)" id="down"></img>
+                        </div>
+                    </th>
+                    <th>
+                        <div>HQ_Location</div>
+                        <div class="table-icon-block">
+                            <img src="./assets/images/up.png" class="asc-desc" onclick="renderAscData(8)" id="up"></img>  
+                            <img src="./assets/images/down.png" class="asc-desc" onclick="renderDescData(8)" id="down"></img>
+                        </div>
+                    </th>
+                    <th>
+                        <div>Edit</div>
+                    </th>
+                    <th>
+                        <div>Delete</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="table-wrapper-id">
+                <!-- <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                    <td>Data 3</td>
+                    <td>Data 4</td>
+                    <td>Data 5</td>
+                    <td>Data 6</td>
+                    <td>Data 7</td>
+                    <td>Data 8</td>
+                    <td>Data 9</td>
+                    <td>Data 10</td>
+                </tr> -->
+            </tbody>
+        </table>
+        <div class="error-message-block">
+            <p class="no-data-error" id="no-data-text-id"></p>
+        </div>
+    </div>
+
+    <div class="bottom-block">
+        <div class="select-block">
+            <select name="Search by" class="select-options" onchange="handleSelectionChange()" id="select-option-id" >
+                <!-- <option value="0">0</option> -->
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+        </div>
+        <div class="page-display-detial-block">
+            <p>Page <span id="span-current-page-id">0</span> of <span id="span-end-page-id">0</span></p>
+            <div class="button-block">
+                <button class="button" id="decrement-button-id" onclick="decrementPage()"><</button>
+                <button class="button" id="increment-button-id" onclick="incrementPage()">></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

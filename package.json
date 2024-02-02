@@ -1,0 +1,15 @@
+{
+  "name": "assignment-4_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./assets/sample_data_1.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
