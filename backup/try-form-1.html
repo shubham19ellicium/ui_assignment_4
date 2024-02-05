@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./try-form-1.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-block" id="pop-for-upload">
+            <form onsubmit="handleUploadData()" class="submit-form">
+                <div class="form-header-block">
+                    <h1 class="form-header">
+                        Add details
+                    </h1>
+                    <p class="form-header-text">Please fill company info form</p>
+                </div>
+                <div class="form-element-block">
+                    <div class="form-input-element-block">
+                        <label for="">Company Name</label>
+                        <input type="text" class="form-input" placeholder="Company name" name="company-name" id="company-name-id" maxlength="50" required>
+                    </div>
+                    <div class="form-input-element-block">
+                        <label for="">Level</label>
+                        <input type="text" class="form-input" placeholder="Level" name="level" id="level-id" maxlength="50" required>
+                    </div>
+                </div>
+                <div class="form-element-block">
+                    <div class="form-input-element-block">
+                        <label for="">Parent</label>
+                        <input type="text" class="form-input" placeholder="Parent" name="company-name" id="parent-id" maxlength="50">
+                    </div>
+                    <div class="form-input-element-block">
+                        <label for="">Partner Type</label>
+                        <input type="text" class="form-input" name="Partner-type" placeholder="Partner Type" id="partner-type-id" maxlength="50">
+                    </div>
+                </div>
+                <div class="form-element-block">
+                    <div class="form-input-element-block">
+                        <label for="">Source</label>
+                        <input type="text" class="form-input" name="source" placeholder="Source" id="source-id" maxlength="50" required>
+                    </div>
+                    <div class="form-input-element-block">
+                        <label for="">Industry</label>
+                        <input type="text" class="form-input" name="industry" placeholder="Industry" id="industry-id" maxlength="50" required>
+                    </div>
+                </div>
+                <div class="form-element-block">
+                    <div class="form-input-element-block">
+                        <label for="">NAICS code</label>
+                        <input type="text" class="form-input" name="naics" placeholder="NAICS code" id="naics-code-id" maxlength="50">
+                    </div>
+                    <div class="form-input-element-block">
+                        <label for="">HQ Location</label>
+                        <input type="text" class="form-input" name="hq" placeholder="HQ Location" id="hq-location-id" maxlength="50">
+                    </div>
+                </div>
+                <div class="button-block">
+                    <!-- <button class="form-button" onclick="handleUploadData()">Upload</button> -->
+                    <button class="form-button" type="submit">Upload</button>
+                    <button class="form-button" onclick="handleClosePopup()">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

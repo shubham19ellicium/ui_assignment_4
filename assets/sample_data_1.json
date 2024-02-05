@@ -7,8 +7,8 @@
       "Partner_Type": "",
       "Source": "CAPIQ",
       "Industry": "Steel",
-      "NAICS_code": "0",
-      "HQ_Location": "United States",
+      "NAICS_code": "010",
+      "HQ_Location": "USA",
       "id": "7cdf"
     },
     {
@@ -226,9 +226,9 @@
       "Parent": "The Howard Hughes Corporation",
       "Partner_Type": "INVESTMENTS",
       "Source": "CAPIQ",
-      "Industry": "",
+      "Industry": "IT",
       "NAICS_code": "0",
-      "HQ_Location": "United States",
+      "HQ_Location": "USA",
       "id": "1c5a"
     },
     {
@@ -348,7 +348,7 @@
       "Partner_Type": "SUPPLIER",
       "Source": "CAPIQ",
       "Industry": "Commercial Banking",
-      "NAICS_code": 52211,
+      "NAICS_code": "52211",
       "HQ_Location": "United States",
       "id": "5fc2"
     },
@@ -446,9 +446,9 @@
       "Parent": "The Howard Hughes Corporation",
       "Partner_Type": "INVESTMENTS",
       "Source": "CAPIQ",
-      "Industry": "",
-      "NAICS_code": 0,
-      "HQ_Location": "United States",
+      "Industry": "IT",
+      "NAICS_code": "0",
+      "HQ_Location": "Mumbai",
       "id": "2839"
     },
     {
@@ -6940,17 +6940,6 @@
       "NAICS_code": 0,
       "HQ_Location": "Belgium",
       "id": "2263"
-    },
-    {
-      "id": "40d6",
-      "Company_Name": "A1",
-      "Level": "T01",
-      "Parent": "TATA",
-      "Partner_Type": "any",
-      "Source": "any",
-      "Industry": "IT",
-      "NAICS_code": "9090",
-      "HQ_Location": "India"
     }
   ]
 }

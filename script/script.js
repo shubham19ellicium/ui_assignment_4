@@ -5,18 +5,24 @@ let pageCount = 10
 let pageNumber = 1
 let pageEndIndex ='' ;
 
+let filterCount = 10
+let filterNumber = 1
+let filteeEndIndex = ''
+
 var background = document.getElementById("container")
 var popUpId = document.getElementById("pop-for-upload")
 var popUpUpdateId = document.getElementById("pop-up-update-id")
 var responseJsonLength ;
 
+var updatedCheckId ;
+
 window.onload = function() {
     var selectedValue = document.getElementById("select-option-id");
     console.log("RUN AFTER RELOAD");
     if (sessionStorage.getItem("page-number") != null && sessionStorage.getItem("page-count") != null) {
-        pageNumber = sessionStorage.getItem("page-number")
-        pageCount = sessionStorage.getItem("page-count")
-        selectedValue.value = sessionStorage.getItem("page-total-list")
+        pageNumber = parseInt(sessionStorage.getItem("page-number"), 10)
+        pageCount = parseInt(sessionStorage.getItem("page-count"),10)
+        selectedValue.value = parseInt(sessionStorage.getItem("page-total-list"),10)
         selectedValue.options[selectedValue.selectedIndex].text = sessionStorage.getItem("page-total-list")
         sessionStorage.clear()
     }
@@ -28,7 +34,7 @@ const fetchData = async() =>{
     const jsonData = await response.json();
     pageEndIndex = Math.ceil(jsonData.length/pageCount)
     responseJsonLength = jsonData.length
-    console.log("WRAPPER :: ",wrapper);
+    // console.log("WRAPPER :: ",wrapper);
     while (wrapper.lastChild) {
         wrapper.removeChild(wrapper.lastChild);
     }
@@ -47,6 +53,48 @@ const fetchData = async() =>{
 
 const fetchSearchData = async(text) => {
     const response = await fetch(`http://localhost:3000/data?q=${text}`)
+    const responseData = await response.json()
+    responseJsonLength = responseData.length
+    while (wrapper.lastChild) {
+        wrapper.removeChild(wrapper.lastChild);
+    }
+    
+    while (storeArray.length > 0) {
+        storeArray.pop();
+    }
+    
+    responseData.map((data)=>{
+        storeArray.push(data)
+    })
+    renderDataFromArray()
+}
+
+const fetchFilterSearchData = async(text) => {
+    const response = await fetch(`http://localhost:3000/data?q=${text}`)
+    const responseData = await response.json()
+    responseJsonLength = responseData.length
+    while (wrapper.lastChild) {
+        wrapper.removeChild(wrapper.lastChild);
+    }
+    
+    while (storeArray.length > 0) {
+        storeArray.pop();
+    }
+    
+    responseData.map((data)=>{
+        storeArray.push(data)
+    })
+    if (text.length === 0) {
+        renderDataFromArray()
+    }
+    renderFilterDataFromArray()
+}
+
+const searchFromSinglePage = async(word,limit,page) =>{
+    console.log("WORD :: ",word);
+    console.log("LIMIT :: ",limit);
+    console.log("PAGE :: ",page);
+    const response = await fetch(`http://localhost:3000/data?q=${word}&_limit=${limit}&_page=${page}`)
     const responseData = await response.json()
     responseJsonLength = responseData.length
     while (wrapper.lastChild) {
@@ -88,6 +136,26 @@ const fetchSortedData = async(table,method) =>{
     renderDataFromArray()
 }
 
+const getPageData = async(rowCount,pageNumber) => {
+    const response = await fetch(`http://localhost:3000/data?_limit=${rowCount}&_page=${pageNumber}`)
+    const responseData = await response.json()
+    const arr = []
+    // responseJsonLength = responseData.length
+    while (wrapper.lastChild) {
+        wrapper.removeChild(wrapper.lastChild);
+    }
+    
+    // while (storeArray.length > 0) {
+    //     storeArray.pop();
+    // }
+    
+    responseData.map((data)=>{
+        arr.push(data)
+    })
+
+    return arr
+}
+
 function submitSearchValue() {
     var searchInputId = document.getElementById("search-input-id")
     var selectedValue = document.getElementById("select-option-id").value;
@@ -97,7 +165,9 @@ function submitSearchValue() {
         pageCount = 10
         selectedValue = 10
     }
-    fetchSearchData(searchInputId.value)
+    
+    fetchFilterSearchData(searchInputId.value)
+    // searchFromSinglePage(searchInputId.value,selectedValue,pageNumber)
 
 }
 
@@ -121,6 +191,34 @@ function renderDataFromArray() {
         var startIndex = (pageNumber * pageCount) - (pageCount - 1);
         var endIndex = (pageNumber * pageCount);
 
+        if (index >= startIndex && index <= endIndex) {
+            wrapper.append(createHtml(data));
+        }
+    });
+
+    updateIndex()
+}
+
+function renderFilterDataFromArray() {
+    pageNumber = 1
+    var errorMessageId = document.getElementById("no-data-text-id")
+
+    console.log("STORE MAP :: ",storeArray);
+    while (wrapper.lastChild) {
+        wrapper.removeChild(wrapper.lastChild);
+    }
+
+    if (storeArray.length === 0) {
+        errorMessageId.innerHTML = "No data to display"    
+    }else{
+        errorMessageId.innerHTML = ""
+    }
+
+    storeArray.map((data, index) => {
+        index += 1;
+        var startIndex = (pageNumber * pageCount) - (pageCount - 1);
+        var endIndex = (pageNumber * pageCount);
+        console.log("START INDEX :: ",startIndex);
         if (index >= startIndex && index <= endIndex) {
             wrapper.append(createHtml(data));
         }
@@ -166,18 +264,32 @@ function handleSelectionChange() {
 }
 
 function incrementPage(){
-
+    document.getElementById("table-id").scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
     console.log("PAGE NUMBER :: ",Number(pageNumber));
     console.log("PAGE NUMBER :: ",Number(pageEndIndex));
     if(Number(pageNumber) < Number(pageEndIndex)){
-        pageNumber += 1
+        pageNumber += Number(1)
     }
     renderDataFromArray()
     updateIndex()
 }
 
 function decrementPage(){
-    
+    document.getElementById("table-id").scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
     if(Number(pageNumber) > Number(1)){
         pageNumber -= 1
     }
@@ -189,6 +301,7 @@ function updateIndex(){
     var currentIndexId = document.getElementById("span-current-page-id")
     var endIndexId = document.getElementById("span-end-page-id")
     pageEndIndex = Math.ceil(responseJsonLength/pageCount)
+    console.log("PAGE INDEX :: ",pageEndIndex);
     currentIndexId.innerHTML = pageNumber
     endIndexId.innerHTML = pageEndIndex
 }
@@ -213,18 +326,37 @@ function clickedDelete(id){
 }
 
 function displayPostForm(){
+    var background1 = document.getElementById("upper-element-id")
+    var background2 = document.getElementById("table-container-id")
+    var background3 = document.getElementById("bottom-block-id")
+
+    background1.classList.add("blur")
+    background2.classList.add("blur")
+    background3.classList.add("blur")
+
+    document.getElementById('overlay').style.display = 'block';
     popUpId.classList.add("active")  
 }
 
 function handleClosePopup() {
-    var background = document.getElementById("main-container")
+
+    var background1 = document.getElementById("upper-element-id")
+    var background2 = document.getElementById("table-container-id")
+    var background3 = document.getElementById("bottom-block-id")
+
+    background1.classList.remove("blur")
+    background2.classList.remove("blur")
+    background3.classList.remove("blur")
+
+    document.getElementById('overlay').style.display = 'none';
     popUpId.classList.remove("active")
     popUpUpdateId.classList.remove("active")
 }
 
 function updateDetails(event){
     // event.preventDefault();
-    var idUpdate = document.getElementById("id-update-id").value
+    // var idUpdate = document.getElementById("id-update-id").value
+    var idUpdate = updatedCheckId
     var nameUpdate = document.getElementById("company-name-update-id").value
     var levelUpdate = document.getElementById("level-update-id").value
     var parentUpdate = document.getElementById("parent-update-id").value
@@ -239,6 +371,8 @@ function updateDetails(event){
     sessionStorage.setItem("page-number",pageNumber)
     sessionStorage.setItem("page-count",pageCount)
     sessionStorage.setItem("page-total-list",selectedValue)
+
+    console.log("UPDATE ID :: ",idUpdate);
 
     fetch("http://localhost:3000/data/"+idUpdate, {
     method: "PUT",
@@ -260,6 +394,7 @@ function updateDetails(event){
 }
 
 function handleUploadData() {
+    event.preventDefault();
     var inputCompanyName = document.getElementById("company-name-id")
     var inputLevel = document.getElementById("level-id")
     var inputParent = document.getElementById("parent-id")
@@ -298,8 +433,8 @@ function handleUploadData() {
 async function editChecked(id){
     var userResponse = await fetchSingleData(id)
     console.log("User response :: ",userResponse);
-    
-    document.getElementById("id-update-id").value = userResponse.id
+    updatedCheckId = userResponse.id
+    // document.getElementById("id-update-id").value = userResponse.id
     document.getElementById("company-name-update-id").value = userResponse.Company_Name
     document.getElementById("level-update-id").value = userResponse.Level
     document.getElementById("parent-update-id").value = userResponse.Parent
@@ -309,48 +444,121 @@ async function editChecked(id){
     document.getElementById("naics-code-update-id").value = userResponse.NAICS_code
     document.getElementById("hq-location-update-id").value = userResponse.HQ_Location
     
+    var background1 = document.getElementById("upper-element-id")
+    var background2 = document.getElementById("table-container-id")
+    var background3 = document.getElementById("bottom-block-id")
+
+    background1.classList.add("blur")
+    background2.classList.add("blur")
+    background3.classList.add("blur")
+
+    document.getElementById('overlay').style.display = 'block';
     
     var updatePopUp = document.getElementById("pop-up-update-id")
     updatePopUp.classList.add("active")
 }
 
+function renderDataFromArrayDay(array) {
+    console.log("END INDEX :: ",pageEndIndex);
+    var errorMessageId = document.getElementById("no-data-text-id")
+
+    // while (wrapper.lastChild) {
+    //     wrapper.removeChild(wrapper.lastChild);
+    // }
+
+    if (array.length === 0) {
+        errorMessageId.innerHTML = "No data to display"    
+    }else{
+        errorMessageId.innerHTML = ""
+    }
+
+    array.map((data, index) => {
+        // var startIndex = (pageNumber * pageCount) - (pageCount - 1);
+        // var endIndex = (pageNumber * pageCount);
+        // index = startIndex
+        // index += 1;
+        // console.log("START INDEX :: ",startIndex);
+        // console.log("END   INDEX :: ",endIndex);
+        // console.log("      INDEX :: ",index);
+        // if (index >= startIndex && index <= endIndex) {
+        console.log("::::------>>> ",data);
+        wrapper.append(createHtml(data));
+        // }
+    });
+
+    // updateIndex()
+}
+
+async function sortArrayData(param,method) {
+    
+    let gotArray = await getPageData(pageCount,pageNumber)
+    if (method === 'asc') {
+        
+        gotArray = gotArray.sort((a,b)=>{
+            if(a[param] < b[param]){
+                return -1
+            }
+        })
+    }else if (method === "desc") {
+        // let gotArray = await getPageData(pageCount,pageNumber)
+        
+        gotArray = gotArray.sort((a,b)=>{
+            if(a[param] > b[param]){
+                return -1
+            }
+        })
+    }
+
+    console.log("NEW ARRAY :: ",gotArray);
+    renderDataFromArrayDay(gotArray)
+}
+
 function renderAscData(param){
+    const asc = "asc"
     if (param == 1) {
-        fetchSortedData("Company_Name","asc")
+        sortArrayData("Company_Name",asc)
+        // fetchSortedData("Company_Name","asc")
     }else if (param == 2) {
-        fetchSortedData("Level","asc")
+        // fetchSortedData("Level","asc")
+        sortArrayData("Level",asc)
     }else if (param == 3) {
-        fetchSortedData("Parent","asc")
+        // fetchSortedData("Parent","asc")
+        sortArrayData("Parent",asc)
     }else if (param == 4) {
-        fetchSortedData("Partner_Type","asc")
+        // fetchSortedData("Partner_Type","asc")
+        sortArrayData("Partner_Type",asc)
     }else if (param == 5) {
-        fetchSortedData("Source","asc")
+        // fetchSortedData("Source","asc")
+        sortArrayData("Source",asc)
     }else if (param == 6) {
-        fetchSortedData("Industry","asc")
+        // fetchSortedData("Industry","asc")
+        sortArrayData("Industry",asc)
     }else if (param == 7) {
-        fetchSortedData("NAICS_code","asc")
+        // fetchSortedData("NAICS_code","asc")
+        sortArrayData("NAICS_code",asc)
     }else if (param == 8) {
-        fetchSortedData("HQ_Location","asc")
+        // fetchSortedData("HQ_Location","asc")
+        sortArrayData("HQ_Location",asc)
     }
 }
 
 function renderDescData(param){
     var method = "desc"
     if (param == 1) {
-        fetchSortedData("Company_Name",method)
+        sortArrayData("Company_Name",method)
     }else if (param == 2) {
-        fetchSortedData("Level",method)
+        sortArrayData("Level",method)
     }else if (param == 3) {
-        fetchSortedData("Parent",method)
+        sortArrayData("Parent",method)
     }else if (param == 4) {
-        fetchSortedData("Partner_Type",method)
+        sortArrayData("Partner_Type",method)
     }else if (param == 5) {
-        fetchSortedData("Source",method)
+        sortArrayData("Source",method)
     }else if (param == 6) {
-        fetchSortedData("Industry",method)
+        sortArrayData("Industry",method)
     }else if (param == 7) {
-        fetchSortedData("NAICS_code",method)
+        sortArrayData("NAICS_code",method)
     }else if (param == 8) {
-        fetchSortedData("HQ_Location",method)
+        sortArrayData("HQ_Location",method)
     }
 }
