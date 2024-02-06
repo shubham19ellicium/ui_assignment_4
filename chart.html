@@ -12,6 +12,22 @@
 </head>
 <body>
     <h1>This is chart page</h1>
+    <select class="form-input" name="select-level" id="select-level-id" onchange="selectedLevel()" required>
+        <option value="">Select from option</option>
+        <option value="T0">T0</option>
+        <option value="T1">T1</option>
+        <option value="T2">T2</option>
+
+    </select>
+    <select class="form-input" name="select-level" id="load-t1-selection" onchange="selectedT1Level()" >
+        <option value="none">Select from option</option>
+
+    </select>
+    <!-- <select class="form-input" name="select-level" id="load-t2-selection" onchange="selectedT2Level()" >
+        <option value="none">Select from option</option>
+
+    </select> -->
+
     <div id="chartdiv">
 
     </div>
