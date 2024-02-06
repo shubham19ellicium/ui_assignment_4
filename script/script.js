@@ -1,3 +1,4 @@
+'use strict'
 var storeArray = []
 var wrapper = document.getElementById("table-wrapper-id")
 
@@ -34,7 +35,6 @@ const fetchData = async() =>{
     const jsonData = await response.json();
     pageEndIndex = Math.ceil(jsonData.length/pageCount)
     responseJsonLength = jsonData.length
-    // console.log("WRAPPER :: ",wrapper);
     while (wrapper.lastChild) {
         wrapper.removeChild(wrapper.lastChild);
     }
@@ -46,8 +46,6 @@ const fetchData = async() =>{
     jsonData.map((data)=>{
         storeArray.push(data)
     })
-    // storeArray = jsonData;
-    // console.log("STORE ARRAY :: ",storeArray);
     renderDataFromArray()
 }
 

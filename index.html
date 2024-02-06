@@ -62,13 +62,13 @@
             <div class="form-element-block">
                 <div class="form-input-element-block">
                     <label for="">Company Name</label>
-                    <input type="text" class="form-input" placeholder="Company name" name="company-name" id="company-name-id" maxlength="50" required>
+                    <input type="text" class="form-input" pattern="^[\w ]+$" title="Only alphanumeric value" placeholder="Company name" name="company-name" id="company-name-id" maxlength="50" required>
                 </div>
                 <div class="form-input-element-block">
                     <label for="">Level</label>
                     <!-- <input type="text" class="form-input" placeholder="Level" name="level" id="level-id" maxlength="50" required> -->
                     <select class="form-input" name="select-level" id="level-id" required>
-                        <option value="none">Select from option</option>
+                        <option value="">Select from option</option>
                         <option value="T0">T0</option>
                         <option value="T1">T1</option>
                         <option value="T2">T2</option>
@@ -79,21 +79,21 @@
             <div class="form-element-block">
                 <div class="form-input-element-block">
                     <label for="">Parent</label>
-                    <input type="text" class="form-input" placeholder="Parent" name="company-name" id="parent-id" maxlength="50">
+                    <input type="text" class="form-input" pattern="^[\w ]+$" title="Only alphanumeric value" placeholder="Parent" name="company-name" id="parent-id" maxlength="50">
                 </div>
                 <div class="form-input-element-block">
                     <label for="">Partner Type</label>
-                    <input type="text" class="form-input" name="Partner-type" placeholder="Partner Type" id="partner-type-id" maxlength="50">
+                    <input type="text" class="form-input" pattern="^[\w ]+$" title="Only alphanumeric value" name="Partner-type" placeholder="Partner Type" id="partner-type-id" maxlength="50">
                 </div>
             </div>
             <div class="form-element-block">
                 <div class="form-input-element-block">
                     <label for="">Source</label>
-                    <input type="text" class="form-input" name="source" placeholder="Source" id="source-id" maxlength="50" required>
+                    <input type="text" class="form-input" pattern="^[\w ]+$" title="Only alphanumeric value" name="source" placeholder="Source" id="source-id" maxlength="50" required>
                 </div>
                 <div class="form-input-element-block">
                     <label for="">Industry</label>
-                    <input type="text" class="form-input" name="industry" placeholder="Industry" id="industry-id" maxlength="50" required>
+                    <input type="text" class="form-input" pattern="^[\w ]+$" title="Only alphanumeric value" name="industry" placeholder="Industry" id="industry-id" maxlength="50" required>
                 </div>
             </div>
             <div class="form-element-block">
@@ -103,7 +103,7 @@
                 </div>
                 <div class="form-input-element-block">
                     <label for="">HQ Location</label>
-                    <input type="text" class="form-input" name="hq" placeholder="HQ Location" id="hq-location-id" maxlength="50">
+                    <input type="text" class="form-input" pattern="^[\w ]+$" title="Only alphanumeric value" name="hq" placeholder="HQ Location" id="hq-location-id" maxlength="50">
                 </div>
             </div>
             <div class="pop-up-button-block">
@@ -234,56 +234,56 @@
         <table id="table-id">
             <thead>
                 <tr>
-                    <th style="width: 70%;">
+                    <th width="80">
                         <div>Company Name</div>
                         <div class="table-icon-block">
                             <img src="./assets/images/up-sort.png" class="asc-desc" onclick="renderAscData(1)" id="up"></img>  
                             <img src="./assets/images/down-sort.png" class="asc-desc" onclick="renderDescData(1)" id="down"></img> 
                         </div>
                     </th>
-                    <th style="width: 70%;">
+                    <th width="80">
                         <div>Level</div>
                         <div class="table-icon-block">
                             <img src="./assets/images/up-sort.png" class="asc-desc" onclick="renderAscData(2)" id="up"></img>  
                             <img src="./assets/images/down-sort.png" class="asc-desc" onclick="renderDescData(2)" id="down"></img> 
                         </div>
                     </th>
-                    <th style="width: 70%;">
+                    <th width="80">
                         <div>Parent</div>
                         <div class="table-icon-block">
                             <img src="./assets/images/up-sort.png" class="asc-desc" onclick="renderAscData(3)" id="up"></img>  
                             <img src="./assets/images/down-sort.png" class="asc-desc" onclick="renderDescData(3)" id="down"></img>
                         </div>
                     </th>
-                    <th style="width: 70%;">
+                    <th width="80">
                         <div>Partner Type</div>
                         <div class="table-icon-block">
                             <img src="./assets/images/up-sort.png" class="asc-desc" onclick="renderAscData(4)" id="up"></img>  
                             <img src="./assets/images/down-sort.png" class="asc-desc" onclick="renderDescData(4)" id="down"></img>
                         </div>
                     </th>
-                    <th style="width: 70%;">
+                    <th width="80">
                         <div>Source</div>
                         <div class="table-icon-block">
                             <img src="./assets/images/up-sort.png" class="asc-desc" onclick="renderAscData(5)" id="up"></img>  
                             <img src="./assets/images/down-sort.png" class="asc-desc" onclick="renderDescData(5)" id="down"></img>
                         </div>
                     </th>
-                    <th style="width: 70%;">
+                    <th width="80">
                         <div>Industry</div>
                         <div class="table-icon-block">
                             <img src="./assets/images/up-sort.png" class="asc-desc" onclick="renderAscData(6)" id="up"></img>  
                             <img src="./assets/images/down-sort.png" class="asc-desc" onclick="renderDescData(6)" id="down"></img>
                         </div>
                     </th>
-                    <th style="width: 70%;">
+                    <th width="80">
                         <div >NAICS code</div>
                         <div class="table-icon-block">
                             <img src="./assets/images/up-sort.png" class="asc-desc" onclick="renderAscData(7)" id="up"></img>  
                             <img src="./assets/images/down-sort.png" class="asc-desc" onclick="renderDescData(7)" id="down"></img>
                         </div>
                     </th>
-                    <th style="width: 70%;">
+                    <th width="80">
                         <div>HQ Location</div>
                         <div class="table-icon-block">
                             <img src="./assets/images/up-sort.png" class="asc-desc" onclick="renderAscData(8)" id="up"></img>  

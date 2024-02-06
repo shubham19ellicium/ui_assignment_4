@@ -27,13 +27,12 @@ body{
 }
 
 .upper-elements-block{
-    margin: 32px;
+    margin: 16px 32px;
     display: flex;
     justify-content: space-between;
 }
 
 .upper-elements-block.blur{
-    margin: 32px;
     display: flex;
     justify-content: space-between;
     filter: blur(2px);
@@ -61,7 +60,7 @@ body{
 }
 
 .table-container{
-    margin: 32px 0px;
+    margin: 16px 0px;
 }
 
 .table-container.blur{
@@ -79,7 +78,7 @@ table {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
     display: block;
-    height: 700px;
+    height: 450px;
     overflow-y: scroll;
 }
 
@@ -106,7 +105,7 @@ tr:nth-child(even) {
 }
 
 .bottom-block{
-    margin: 32px;
+    margin: 16px 32px;
     display: flex;
     justify-content: space-between;
 }
