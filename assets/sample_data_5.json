@@ -1,0 +1,6324 @@
+{
+  "data": [
+    {
+      "Company_Name": "Alight Solutions LLC",
+      "Level": "T0",
+      "Parent": "",
+      "Partner_Type": "",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": ""
+    },
+    {
+      "Company_Name": "Apria, Inc. (NasdaqGS:APR)",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Life Account, LLC",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Beqom North America",
+      "Level": "T2",
+      "Parent": "beqom SA",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Bharti Airtel Limited (BSE:532454)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Telecommunications",
+      "NAICS_code": 517,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Blackstone Management Partners L.P",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Blue Yonder Group, Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Computer Systems Design Services",
+      "NAICS_code": 541512,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "BlueGenesis.Com Corp.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Telecommunications",
+      "NAICS_code": 517,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "Boomi, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Computer Systems Design Services",
+      "NAICS_code": 541512,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Boulton House",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Brasada Ranch",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Brigade Enterprises Limited (BSE:532929)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Land Subdivision",
+      "NAICS_code": 2372,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Broadridge Corporate Issuer Solutions, Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Metropolitan Police Service",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Brookfield Property REIT Inc. (NasdaqGS:BPYU)",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Real Estate Credit",
+      "NAICS_code": 522292,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Brose Fahrzeugteile GmbH & Co. Kommanditgesellschaft, Coburg",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Motor Vehicle Parts Manufacturing",
+      "NAICS_code": 3363,
+      "HQ_Location": "Germany"
+    },
+    {
+      "Company_Name": "Busboys and Poets",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Business Information Management Limited",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "CIBC Mellon Trust Company",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Art Dealers",
+      "NAICS_code": 45392,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "CLOUDGENIX INC.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "CSG Systems International, Inc. (NasdaqGS:CSGS)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "CSPV Holdings, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "CVS Pharmacy, Inc.",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Pharmacies and Drug Stores",
+      "NAICS_code": 44611,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Caddick Construction Ltd",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Foundation, Structure, and Building Exterior Contractors",
+      "NAICS_code": 23819,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "NGA Human Resources",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Computer Systems Design Services",
+      "NAICS_code": 541512,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "California Physicians' Service, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "General Medical and Surgical Hospitals",
+      "NAICS_code": 6221,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Camunda Services GmbH",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Germany"
+    },
+    {
+      "Company_Name": "Can Fin Homes Limited (BSE:511196)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Mortgage and Nonmortgage Loan Brokers",
+      "NAICS_code": 52231,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Cannae Holdings, LLC",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Cannae Timber Resources LLC",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Capgemini SE (ENXTPA:CAP)",
+      "Level": "T2",
+      "Parent": "Metropolitan Police Service",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "France"
+    },
+    {
+      "Company_Name": "Cast SA (ENXTPA:CAS)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "France"
+    },
+    {
+      "Company_Name": "Central Pacific Bank",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "CentralNic Group Plc (AIM:CNIC)",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Ceridian Corporation",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Accounting, Tax Preparation, Bookkeeping, and Payroll Services",
+      "NAICS_code": 5412,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Palace Capital Plc (LSE:PCA)",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Ceridian HCM Holding Inc. (NYSE:CDAY)",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Ceridian HCM, Inc.",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Change Healthcare Inc. (NasdaqGS:CHNG)",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Change Healthcare, LLC",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "ChecksByDeluxe.com, LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Cigna Corp., 70 Corporate Center",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Cinépolis USA",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Cisco Systems, Inc. (NasdaqGS:CSCO)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Communications Equipment Manufacturing",
+      "NAICS_code": 3342,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Citrix Systems, Inc. (NasdaqGS:CTXS)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "City of New York",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Porta Communications Plc",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Management Consulting Services",
+      "NAICS_code": 541618,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Clockwork Active Media Systems, LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "ClosingCorp Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "CloudKnox Security Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Cognatio Solutions Ltd",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Cole Credit Property Trust II Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Columbia Business School",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "ComplianceQuest, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Computershare Investor Services Pty Limited",
+      "Level": "T2",
+      "Parent": "SKS Technologies Group Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Art Dealers",
+      "NAICS_code": 45392,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Continental/FRS Plan Administration, Inc.",
+      "Level": "T2",
+      "Parent": "Continental Stock Transfer & Trust Company",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "ContinuousHealth, Inc.",
+      "Level": "T2",
+      "Parent": "Hodges-Mace, LLC",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "SKS Technologies Group Limited (ASX:SKS)",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "All Other Electrical Equipment and Component Manufacturing",
+      "NAICS_code": 33599,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Coram Healthcare Corporation of Alabama",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Coram Healthcare Corporation of Florida",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Coram Healthcare Corporation of Greater D.C.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Coram Healthcare Corporation of Greater New York",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Coram Healthcare Corporation of Indiana",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Coram Healthcare Corporation of South Carolina",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Coram Healthcare of Wyoming, LLC",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Coram Homecare of Minnesota, Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Coram Service Corporation",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "CoreLogic, Inc. (NYSE:CLGX)",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Scottish Police Authority",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Cornerstone Customer Solutions, LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Corporation Bank",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "CorroHealth",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Crazy Horse Brand Response Ltd",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Crescent Area 1 – Parking Deck 1, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Crucial Paradigm Pty Ltd.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Cushman & Wakefield LLP",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Lessors of Other Real Estate Property",
+      "NAICS_code": 53119,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Custom Direct LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Custom Direct, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Office Supplies and Stationery Stores",
+      "NAICS_code": 45321,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "CyCognito",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The Howard Hughes Corporation (NYSE:HHC)",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Land Subdivision",
+      "NAICS_code": 2372,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "DTI",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Business Service Centers",
+      "NAICS_code": 56143,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Dar Al Riyadh Group",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Saudi Arabia"
+    },
+    {
+      "Company_Name": "Dare Foods Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "Data Support Systems, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Computer Systems Design Services",
+      "NAICS_code": 541512,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Datamyx LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Other Information Services",
+      "NAICS_code": 519,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Deluxe Business Operations, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Deluxe Enterprise Operations, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Deluxe Manufacturing Operations, LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Deluxe Small Business Sales, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Photography",
+      "NAICS_code": 541922,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Deluxe Small Business Services, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Wipro Limited (BSE:507685)",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Computer Systems Design Services",
+      "NAICS_code": 541512,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Deluxe Strategic Sourcing, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Farm Management Services",
+      "NAICS_code": 115116,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Deluxe Treasury Management Solutions",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Computer Systems Design Services",
+      "NAICS_code": 541512,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Dena Bank",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Denim Group, Ltd.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Men's and Boys' Clothing and Furnishings Merchant Wholesalers",
+      "NAICS_code": 42432,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Dering Properties (Sutton) Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Designer Checks Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Grocery Stores",
+      "NAICS_code": 4451,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Designit A/S",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Denmark"
+    },
+    {
+      "Company_Name": "Designit Spain Digital S.L.U.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "Spain"
+    },
+    {
+      "Company_Name": "Destination Rewards, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Digital Pacific Assets Pty Ltd",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Workday and Cornerstone OnDemand Business of Wipro Limited",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Digital Pacific Group Pty Ltd",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Digital Pacific Pty Ltd",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Digital Pacific Services Pty Ltd",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Digital Print Solutions (Scotland) Limited",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Direct Checks Unlimited Sales, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Direct Checks Unlimited, LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Discovery Land Company, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Land Subdivision",
+      "NAICS_code": 2372,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Dixon Technologies (India) Limited (BSE:540699)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Audio and Video Equipment Manufacturing",
+      "NAICS_code": 3343,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Dollar Bank, Federal Savings Bank",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Savings Institutions",
+      "NAICS_code": 52212,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Dots & Pixels, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "Cannae Holdings, Inc. (NYSE:CNNE)",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Claims Adjusting",
+      "NAICS_code": 524291,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "beqom SA",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Other Information Services",
+      "NAICS_code": 519,
+      "HQ_Location": "Switzerland"
+    },
+    {
+      "Company_Name": "Druva Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Dueltek Pty Ltd",
+      "Level": "T2",
+      "Parent": "SKS Technologies Group Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Duke Royalty Limited (AIM:DUKE)",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Dun & Bradstreet Holdings, Inc. (NYSE:DNB)",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Document Preparation Services",
+      "NAICS_code": 56141,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "E.ON SE (XTRA:EOAN)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Germany"
+    },
+    {
+      "Company_Name": "ECHO Health, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "EDIS Service Logistics Pty Ltd.",
+      "Level": "T2",
+      "Parent": "SKS Technologies Group Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",
+      "NAICS_code": 42361,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "ESPN, Inc.",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Hair, Nail, and Skin Care Services",
+      "NAICS_code": 81211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "EZShield, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Eastern Bank",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Savings Institutions",
+      "NAICS_code": 52212,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "1,343 Acres of Undeveloped Land Located 13 Miles North of The Woodlands",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Edis Partnerships Limited",
+      "Level": "T2",
+      "Parent": "SKS Technologies Group Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Elaghmore Partners",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "ElectrifAI",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Electronics Communications Technology Investment Development Corporation (HOSE:ELC)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "Vietnam"
+    },
+    {
+      "Company_Name": "Elk Grove Promenade",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Emailage Corp.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Enables IT Group plc",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Encore Theme Technologies Pvt. Ltd.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Engage Technologies Ltd.",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Ireland"
+    },
+    {
+      "Company_Name": "Enterprise Center, The",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "10 - 60 Columbia Corporate Center",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Equiniti Group plc (LSE:EQN)",
+      "Level": "T2",
+      "Parent": "Metropolitan Police Service",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Equity Healthcare LLC",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Ericsson India Pvt. Ltd., R&D Centers in Bangalore, Hyderabad and New Delhi",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Eton Properties Philippines Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Land Subdivision",
+      "NAICS_code": 2372,
+      "HQ_Location": "Philippines"
+    },
+    {
+      "Company_Name": "Eximius Design, LLC",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "FIS Mobile, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Business Service Centers",
+      "NAICS_code": 56143,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "FNF NV Brasada, LLC",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "FRONTWORX Informationstechnologie GmbH",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "Austria"
+    },
+    {
+      "Company_Name": "Falck A/S",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Offices of Bank Holding Companies",
+      "NAICS_code": 551111,
+      "HQ_Location": "Denmark"
+    },
+    {
+      "Company_Name": "Febraban - Federacao Brasileira De Banco",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Brazil"
+    },
+    {
+      "Company_Name": "10 CCC, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Fiat Chrysler Automobiles N.V.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Motor Vehicle and Parts Dealers",
+      "NAICS_code": 441,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Fidelity National Financial, Inc. (NYSE:FNF)",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Insurance Funds",
+      "NAICS_code": 52519,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Fidelity Newport Holdings, LLC",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Claims Adjusting",
+      "NAICS_code": 524291,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "FinancialForce.com, inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "First Hawaiian Bank",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "First Interstate Bank",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "First Manhattan Consulting Group LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "First Software Group",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Fiserv, Inc. (NasdaqGS:FISV)",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Fitness4less Group Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Public Finance Activities",
+      "NAICS_code": 92113,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "10/20/30 Ccc Parking Deck, Llc",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Foley Trasimene Acquisition Corp. (NYSE:WPF)",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Direct Selling Establishments",
+      "NAICS_code": 4543,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Foley Trasimene Acquisition Corp. II (NYSE:BFT)",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Direct Selling Establishments",
+      "NAICS_code": 4543,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Fontis Solutions, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Photography",
+      "NAICS_code": 541922,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Forensic Archive Ltd.",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Breweries",
+      "NAICS_code": 31212,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Fortum Oyj (HLSE:FORTUM)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Electronics Stores",
+      "NAICS_code": 443142,
+      "HQ_Location": "Finland"
+    },
+    {
+      "Company_Name": "Franklin Street Properties Corp. (AMEX:FSP)",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Real Estate Credit",
+      "NAICS_code": 522292,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "GE Healthcare Private Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",
+      "NAICS_code": 42345,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "GP Strategies Corporation (NYSE:GPX)",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Gala Casinos Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Amusement and Recreation Industries",
+      "NAICS_code": 7139,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Global Education Limited (NSEI:GLOBAL)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "1001 Queen, Llc",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Global Oil and Gas Information Technology Services Business",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Globalworth Real Estate Investments Limited (AIM:GWI)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Real Estate Credit",
+      "NAICS_code": 522292,
+      "HQ_Location": "Guernsey"
+    },
+    {
+      "Company_Name": "Globe International Carriers Limited (NSEI:GICL)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Nonscheduled Air Transportation",
+      "NAICS_code": 481219,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Google LLC",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Grandview SHG, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Great Portland Estates Plc (LSE:GPOR)",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Real Estate Credit",
+      "NAICS_code": 522292,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Gregory Projects (Halifax) Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Land Subdivision",
+      "NAICS_code": 2372,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Grimwood Heating Pty Ltd, Appliance Parts Division",
+      "Level": "T2",
+      "Parent": "SKS Technologies Group Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "HL Champion Holding Company, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Harte Hanks, Inc. (OTCPK:HRTH)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Direct Mail Advertising",
+      "NAICS_code": 54186,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "1118 Ala Moana, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Hawk Investment Holdings Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Guernsey"
+    },
+    {
+      "Company_Name": "Hays Consulting & Solutions Group",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Headspin, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "HealthPlan Holdings, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Direct Title Insurance Carriers",
+      "NAICS_code": 524127,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "HealthPlan Services, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Farm Management Services",
+      "NAICS_code": 115116,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Heguang International Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "China"
+    },
+    {
+      "Company_Name": "Hermes Investment Management Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Miscellaneous Intermediation",
+      "NAICS_code": 52391,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Hockenhull Estates Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Honeywell Automation India Limited (BSE:517174)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables",
+      "NAICS_code": 334513,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Hostopia Australia Pty Ltd.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "1701 Lake Robbins",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Hostopia Australia Web Pty Ltd",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Hostopia Bulgaria EOOD",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Bulgaria"
+    },
+    {
+      "Company_Name": "Hostopia Ireland Limited",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Ireland"
+    },
+    {
+      "Company_Name": "Hostopia.com Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "Housecall Medical Resources Inc., RT/HME and Infusion Businesses",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Houston We Have Limited (ASX:HWH)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Howard Hughes Management Co., LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Hughes Howard Properties, Inc.",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Nonresidential Property Managers",
+      "NAICS_code": 531312,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Human & Legal Resources Ltd.",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Humana Health Plan, Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "General Medical and Surgical Hospitals",
+      "NAICS_code": 6221,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "1701 Lake Robbins, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "ICICI Bank Limited (NSEI:ICICIBANK)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "IDLX Technology Partners Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "IGEL Technology GmbH",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Electronic Computer Manufacturing",
+      "NAICS_code": 334111,
+      "HQ_Location": "Germany"
+    },
+    {
+      "Company_Name": "IVIA Comércio e Serviços de Informática Ltda.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "Brazil"
+    },
+    {
+      "Company_Name": "IZMO Limited (BSE:532341)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Icas Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Remediation Services",
+      "NAICS_code": 56291,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "ImanisData, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "InCorta, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Independent Community Bankers Of America",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Indian Institute of Science",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "20 CCC, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Indian Institute of Technology, Kharagpur",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Indian Institute of Technology, Madras",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Junior Colleges",
+      "NAICS_code": 6112,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Ingram Micro Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Computer and Computer Peripheral Equipment and Software Merchant Wholesalers",
+      "NAICS_code": 42343,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "InkHead, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Innogy Innovation Hub",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Germany"
+    },
+    {
+      "Company_Name": "Innovative Print And Media Group, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Inovalis Real Estate Investment Trust (TSX:INO.UN)",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Real Estate Credit",
+      "NAICS_code": 522292,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "IntSights Cyber Intelligence Ltd.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Intel Corporation (NasdaqGS:INTC)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Semiconductor and Related Device Manufacturing",
+      "NAICS_code": 334413,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Intelenet Global Services Private Ltd.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Carlson Management Consulting, Inc.",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "21:12 Communications Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "International Business Machines Corporation (NYSE:IBM)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "International TechneGroup Incorporated",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Internet Names For Business Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "JM Financial Limited (BSE:523405)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Art Dealers",
+      "NAICS_code": 45392,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "JPMorgan Chase Bank, National Association (BDL:166810345)",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Jacada Ltd. (OTCPK:JCDA.F)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Israel"
+    },
+    {
+      "Company_Name": "Janda Electric Co",
+      "Level": "T2",
+      "Parent": "SKS Technologies Group Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Jurys Inn Group Ltd.",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Ireland"
+    },
+    {
+      "Company_Name": "KBR, Inc. (NYSE:KBR)",
+      "Level": "T2",
+      "Parent": "Metropolitan Police Service",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Power and Communication Line and Related Structures Construction",
+      "NAICS_code": 23713,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "KETTLER Inc.",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Land Subdivision",
+      "NAICS_code": 2372,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "21:12 Direct LLP",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "KFin Technologies Private Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Kaiser Foundation Health Plan, Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Offices of Bank Holding Companies",
+      "NAICS_code": 551111,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Kapiolani Residential LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Kettler Management, Inc.",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Real Estate and Rental and Leasing",
+      "NAICS_code": 53,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "KeyBank National Association",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Kinaxis Inc. (TSX:KXS)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "Koninklijke Philips N.V. (ENXTAM:PHIA)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Electromedical and Electrotherapeutic Apparatus Manufacturing",
+      "NAICS_code": 334510,
+      "HQ_Location": "Netherlands"
+    },
+    {
+      "Company_Name": "Kony, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Kranem Corporation",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "LaSalle Investment Management Inc.",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "249 Midsummer Boulevard, Milton Keynes",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Lake Coeur d'Alene Property",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Lakeland Village Holding Company, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Land At 80 South Street Seaport District",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Layne Christensen Company",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Leidos Ltd.",
+      "Level": "T2",
+      "Parent": "Metropolitan Police Service",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Investigation, Guard, and Armored Car Services",
+      "NAICS_code": 56161,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Lepercq Corporate Income Fund L.P.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Levi Strauss & Co. (NYSE:LEVI)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Libra Retail Plc",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Link Group Consultants Ltd.",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Management, Scientific, and Technical Consulting Services",
+      "NAICS_code": 5416,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Link Market Services Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Business Service Centers",
+      "NAICS_code": 56143,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "250 Water Street in Lower Manhattan",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Lloyds Bank plc",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Logo Design Mojo, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "LogoMix Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Lone Star Analysis Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Loreta Realty And Development Corporation",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Philippines"
+    },
+    {
+      "Company_Name": "Loyalty Founder Enterprise Co.,Ltd. (GTSM:5465)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "All Other Miscellaneous Fabricated Metal Product Manufacturing",
+      "NAICS_code": 332999,
+      "HQ_Location": "Taiwan"
+    },
+    {
+      "Company_Name": "LumiGrow, Inc.",
+      "Level": "T2",
+      "Parent": "SKS Technologies Group Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Electric Lighting Equipment Manufacturing",
+      "NAICS_code": 3351,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "MARELLI Europe S.p.A.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Motor Vehicle Parts Manufacturing",
+      "NAICS_code": 3363,
+      "HQ_Location": "Italy"
+    },
+    {
+      "Company_Name": "MIPS Tech, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "MITCON Consultancy & Engineering Services Limited (NSEI:MITCON)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "30 Ccc, Llc",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "MUFG Bank, Ltd.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "Japan"
+    },
+    {
+      "Company_Name": "MVM Holdings, Ltd.",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Consumer Electronics Repair and Maintenance",
+      "NAICS_code": 811211,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Mahanagar Telephone Nigam Limited (BSE:500108)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Telecommunications",
+      "NAICS_code": 517,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Manipal Health Enterprises Pvt Ltd",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Meadowcourt Management (Meadowhall) Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "MedPayExchange, LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Medox, Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Menzies Distribution Ltd",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Merrill Lynch, Pierce, Fenner & Smith Incorporated",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Art Dealers",
+      "NAICS_code": 45392,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Microsoft Corporation (NasdaqGS:MSFT)",
+      "Level": "T2",
+      "Parent": "beqom SA",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "40 CCC Parking Deck, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Millennium Woodlands Phase II, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Mizuho Bank, Ltd.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "Japan"
+    },
+    {
+      "Company_Name": "MongoDB, Inc. (NasdaqGM:MDB)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Mono Advertising LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Moogsoft Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Moorepay Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Accounting, Tax Preparation, Bookkeeping, and Payroll Services",
+      "NAICS_code": 5412,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Mphasis Limited (BSE:526299)",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "MuleSoft, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "MyCity Technology Ltd.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "MyCorporation Business Services, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "40 Ccc, Llc",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "NEBS Business Products Limited",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "NEBS Payroll Service Limited",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "NEXTDC Limited (ASX:NXT)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "NIKE, Inc. (NYSE:NKE)",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Plastics and Rubber Products Manufacturing",
+      "NAICS_code": 326,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "National Health Service (UK)",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "All Other Ambulatory Health Care Services",
+      "NAICS_code": 62199,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "National Westminster Bank Plc",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Neller Pty Ltd",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Accounting, Tax Preparation, Bookkeeping, and Payroll Services",
+      "NAICS_code": 5412,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "NerveWire, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "New England Business Service, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "New England Business Systems Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "50 CCC, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "NewDominion Bank",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Newgate Brussels Sprl",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Belgium"
+    },
+    {
+      "Company_Name": "Newgate Communications (Beijing) Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "China"
+    },
+    {
+      "Company_Name": "Newgate Communications (Hong Kong) Ltd",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Hong Kong"
+    },
+    {
+      "Company_Name": "Newgate Communications (Singapore) Pte. Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Singapore"
+    },
+    {
+      "Company_Name": "Newgate Communications FZ-LLC",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Arab Emirates"
+    },
+    {
+      "Company_Name": "Newgate Communications LLP",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Newgate Communications Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Singapore"
+    },
+    {
+      "Company_Name": "Newgate Communications Ltd",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Remediation Services",
+      "NAICS_code": 56291,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Newgate Communications Pty Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "50/60/70 CCC Parking Deck, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Newgate Media Holdings Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Newgate PR Holdings Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Newgate Public Relations Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Newgate Threadneedle Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Newgate Trading Europe Ltd",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Nexthaus Corporation",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Nga Human Resources Sweden Ab",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Sweden"
+    },
+    {
+      "Company_Name": "Nikko Asset Management Co., Ltd.",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Japan"
+    },
+    {
+      "Company_Name": "Nio Capital",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "China"
+    },
+    {
+      "Company_Name": "Nokia Corp., Mobile Broadcast Solutions Unit",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Finland"
+    },
+    {
+      "Company_Name": "54,000 Square Foot Building At 85 South Street",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Nordstrom, Inc. (NYSE:JWN)",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "North-West Switchgear Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Northern Powergrid Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Offices of Bank Holding Companies",
+      "NAICS_code": 551111,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Northgate Information Solutions UK Limited",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Northgate Public Services Limited",
+      "Level": "T2",
+      "Parent": "Metropolitan Police Service",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Northgate Uk Co",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Electronic Computer Manufacturing",
+      "NAICS_code": 334111,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "NorthgateArinso Belgium LLC",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Belgium"
+    },
+    {
+      "Company_Name": "NorthgateArinso, Inc.",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Northgatearinso Canada Inc",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "Northgatearinso Ireland Limited",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "Ireland"
+    },
+    {
+      "Company_Name": "ChoiceHealth, Inc.",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "60 Ccc, Llc",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Novotel Hotel in the Forum Rotterdam Project",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Netherlands"
+    },
+    {
+      "Company_Name": "Nutanix, Inc. (NasdaqGS:NTNX)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "O'Charley's Holdings, LLC",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Occidental Petroleum Corporation (NYSE:OXY)",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Crude Petroleum Extraction",
+      "NAICS_code": 21112,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Offices of the City of York Council",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Okta, Inc. (NasdaqGS:OKTA)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "One Derby Square in Liverpool",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "OneClickHR Plc, Payroll Bureau and Employee Intranet Products",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Optiv Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Opus Capital Markets Consultants, LLC",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "652 Acres of Undeveloped Land Located 13 Miles North of The Woodlands",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Oracle Corporation (NYSE:ORCL)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Oulun yliopisto",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Finland"
+    },
+    {
+      "Company_Name": "PPS (Local & Regional) Ltd.",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Remediation Services",
+      "NAICS_code": 56291,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "PPS Group Ltd.",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Business Service Centers",
+      "NAICS_code": 56143,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "PPS Holding Company, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "PROCESSMAKER Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Computer and Computer Peripheral Equipment and Software Merchant Wholesalers",
+      "NAICS_code": 42343,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "PROIV Technology, Inc.",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "PT Telekomunikasi Selular",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Telecommunications",
+      "NAICS_code": 517,
+      "HQ_Location": "Indonesia"
+    },
+    {
+      "Company_Name": "PWA Group Limited",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Palace Capital (Developments) Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "70 CC, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Palace Capital (Leeds) Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Palace Capital (Liverpool) Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Palace Capital (Manchester) Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Palace Capital (Newcastle) Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Palace Capital (Northampton) Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Lessors of Other Real Estate Property",
+      "NAICS_code": 53119,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Palace Capital (Signal) Ltd",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Offices of Bank Holding Companies",
+      "NAICS_code": 551111,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "PartnerUp, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Payce, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Pegasystems Inc. (NasdaqGS:PEGA)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Pelagicore AB",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "Sweden"
+    },
+    {
+      "Company_Name": "99 Restaurants Holdings, LLC",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Penna Consulting plc",
+      "Level": "T2",
+      "Parent": "Metropolitan Police Service",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Piedmont Office Realty Trust, Inc. (NYSE:PDM)",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Real Estate Credit",
+      "NAICS_code": 522292,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Pinduoduo Inc. (NasdaqGS:PDD)",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "China"
+    },
+    {
+      "Company_Name": "Pivotal Software, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Portfolio of Office Buildings in Newcastle",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Portfolio of two Class AAA Office Towers, Century Park Campus, Warehouse Space and Developable Land",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Postnet International Franchise Corporation",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Business Service Centers",
+      "NAICS_code": 56143,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "PowerHouse Energy Group Plc (AIM:PHE)",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Project 13 Communications Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Prolog Business Solutions Limited",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "A.N.Z. Appliance Parts",
+      "Level": "T2",
+      "Parent": "SKS Technologies Group Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Property Investment Holdings Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Lessors of Other Real Estate Property",
+      "NAICS_code": 53119,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "PsPrint, LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Photography",
+      "NAICS_code": 541922,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Ptm Document Systems Inc",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Public joint-stock company Vyborg Shipyard (MISX:VSYD)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Ship Building and Repairing",
+      "NAICS_code": 336611,
+      "HQ_Location": "Russia"
+    },
+    {
+      "Company_Name": "QOMPLX, Inc.",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Qualys, Inc. (NasdaqGS:QLYS)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Quintain (Signal) Member A Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "R.T. Warren (Investments) Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Lessors of Other Real Estate Property",
+      "NAICS_code": 53119,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "RAM Technologies, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "RDM Corporation",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Electronic Computer Manufacturing",
+      "NAICS_code": 334111,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "A.N.Z. Appliance Parts and Janda Electric Co",
+      "Level": "T2",
+      "Parent": "SKS Technologies Group Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "REMITCO LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Farm Management Services",
+      "NAICS_code": 115116,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "RGIS, LLC",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Business Service Centers",
+      "NAICS_code": 56143,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Raonsecure Co., Ltd. (KOSDAQ:A042510)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Communications Equipment Manufacturing",
+      "NAICS_code": 3342,
+      "HQ_Location": "South Korea"
+    },
+    {
+      "Company_Name": "Real Estate Business Services, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Rebus Group Ltd.",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Red Hat, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Remittance Solutions Assets of Fiserv, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Research Development & Manufacturing Corporation",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "Restore plc (AIM:RST)",
+      "Level": "T2",
+      "Parent": "Scottish Police Authority",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Business Service Centers",
+      "NAICS_code": 56143,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Robi Axiata Limited (DSE:ROBI)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Telecommunications",
+      "NAICS_code": 517,
+      "HQ_Location": "Bangladesh"
+    },
+    {
+      "Company_Name": "AHNY-DME LLC",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Rockwell Automation Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "SAIC Gulf LLC",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Oman"
+    },
+    {
+      "Company_Name": "SAIC India Private Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "SAP SE (XTRA:SAP)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Germany"
+    },
+    {
+      "Company_Name": "SCISYS Group PLC",
+      "Level": "T2",
+      "Parent": "Metropolitan Police Service",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "SNP Schneider-Neureither & Partner SE (XTRA:SHF)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "Germany"
+    },
+    {
+      "Company_Name": "SPO Global Inc. (OTCPK:SPOM)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "SW Funding Plc",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Direct Life Insurance Carriers",
+      "NAICS_code": 524113,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Safeguard Acquisitions, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Safeguard Business Systems Limited",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Office Supplies and Stationery Stores",
+      "NAICS_code": 45321,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "AHNY-IV LLC",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Safeguard Business Systems, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Safeguard Franchise Sales, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Safeguard Franchise Systems, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Safeguard Holdings, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Saxo Bank A/S",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "Denmark"
+    },
+    {
+      "Company_Name": "Science Applications International, Europe S.A.R.L.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "France"
+    },
+    {
+      "Company_Name": "Seaport Marketplace, Inc.",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Land Subdivision",
+      "NAICS_code": 2372,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Sec Newgate Uk Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Remediation Services",
+      "NAICS_code": 56291,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Seneca Investment Managers Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Sequel Portfolio",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "APCOA Parking (UK) Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Nonscheduled Air Transportation",
+      "NAICS_code": 481219,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "ServiceNow, Inc. (NYSE:NOW)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Siemens plc",
+      "Level": "T2",
+      "Parent": "Scottish Police Authority",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Skidmore, Owings & Merrill, LLP",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Slc Registrars Ltd",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "SmartBen, Inc.",
+      "Level": "T2",
+      "Parent": "Hodges-Mace, LLC",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Smith & Nephew Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",
+      "NAICS_code": 42345,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "Sodexo S.A. (ENXTPA:SW)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Claims Adjusting",
+      "NAICS_code": 524291,
+      "HQ_Location": "France"
+    },
+    {
+      "Company_Name": "Software Aktiengesellschaft (XTRA:SOW)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Germany"
+    },
+    {
+      "Company_Name": "Sopra Steria Group SA (ENXTPA:SOP)",
+      "Level": "T2",
+      "Parent": "Metropolitan Police Service",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "France"
+    },
+    {
+      "Company_Name": "Southern Water Services Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Water Supply and Irrigation Systems",
+      "NAICS_code": 22131,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "AST Trust Company (Canada)",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Securities and Commodity Exchanges",
+      "NAICS_code": 5232,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "Specialist Computer Programming Limited",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Spigit, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Sports Authority space at Ward Gateway",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Sree Chitra Tirunal Institute for Medical Sciences & Technology",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "SuccessFactors, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Summerlin Las Vegas Baseball Club, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Summit Marketing Services Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "SunTrust Banks, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Swinburne University of Technology",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Syncsort Incorporated",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Continental Stock Transfer & Trust Company",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "ATCO I-Tek Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "T/Maker Company",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "TS Partners, Inc.",
+      "Level": "T2",
+      "Parent": "Continental Stock Transfer & Trust Company",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Talend S.A. (NasdaqGM:TLND)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "France"
+    },
+    {
+      "Company_Name": "Tan Tien Plastic Packaging Joint Stock Company",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Vietnam"
+    },
+    {
+      "Company_Name": "Tatanet Services Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Remediation Services",
+      "NAICS_code": 56291,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Taylor Wimpey plc (LSE:TW.)",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Residential Building Construction",
+      "NAICS_code": 2361,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Tegra118 Wealth Solutions, Inc.",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Tel Aviv University",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Israel"
+    },
+    {
+      "Company_Name": "Telecom Infra Project, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Telecommunications",
+      "NAICS_code": 517,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Telefónica Germany GmbH & Co. OHG",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Telecommunications",
+      "NAICS_code": 517,
+      "HQ_Location": "Germany"
+    },
+    {
+      "Company_Name": "Abbey HealthCare Group",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Tenable, Inc.",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Texas Capital Bank, National Association",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The Association for Payroll Services",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "The Bank of New York Mellon Corporation (NYSE:BK)",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The Club at Rock Creek",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The Las Vegas 51s",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Colleges, Universities, and Professional Schools",
+      "NAICS_code": 6113,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The Millennium Del Rey",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The Northern Trust Company",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The Shops At Summerlin South, Lp",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The Shops at Summerlin North, LP",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Abbey Medical, Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The U.s. Army Contracting Command",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The University of Texas at Austin",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The Woodlands Commercial Properties Company, LP.",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Nonresidential Property Managers",
+      "NAICS_code": 531312,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The Woodlands Development Company",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Land Subdivision",
+      "NAICS_code": 2372,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "The Woodlands Land Development Company, L.P.",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Land Subdivision",
+      "NAICS_code": 2372,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "ThinkVine Corporation",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "ThoughtSpot, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Timbermill-94 Limited",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Tradeshift Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Other Information Services",
+      "NAICS_code": 519,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Transport for London",
+      "Level": "T2",
+      "Parent": "Metropolitan Police Service",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Access Communications (Uk) Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "All Other Miscellaneous Ambulatory Health Care Services",
+      "NAICS_code": 621999,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Trasimene Capital Management, LLC",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Tricentis GmbH",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Computer Systems Design Services",
+      "NAICS_code": 541512,
+      "HQ_Location": "Austria"
+    },
+    {
+      "Company_Name": "TripleTree, LLC",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Triumphant Institute of Management Education Pvt. Ltd.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Educational Services",
+      "NAICS_code": 61,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Truist Financial Corporation (NYSE:TFC)",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Twenty20 Media Vision Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "TwentyOne Twelve Communications LLP",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "U.S. Bank National Association",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Umanis SA (ENXTPA:ALUMS)",
+      "Level": "T2",
+      "Parent": "beqom SA",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Computer Systems Design Services",
+      "NAICS_code": 541512,
+      "HQ_Location": "France"
+    },
+    {
+      "Company_Name": "Uniper SE (XTRA:UN01)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Taxi Service",
+      "NAICS_code": 48531,
+      "HQ_Location": "Germany"
+    },
+    {
+      "Company_Name": "Actuate Corporation",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "United HealthCare Services, Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Insurance Agencies and Brokerages",
+      "NAICS_code": 52421,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "United Services Automobile Association",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Direct Property and Casualty Insurance Carriers",
+      "NAICS_code": 524126,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "University of Agricultural Sciences,Bangalore",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Uptake Technologies, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "VICIS, Inc.",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "VMware, Inc. (NYSE:VMW)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Computer Systems Design Services",
+      "NAICS_code": 541512,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Valescent Health Llc",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Vara lnfotech Private Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Vectra AI, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "VeriFone, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Aetna Health Management, LLC",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "General Medical and Surgical Hospitals",
+      "NAICS_code": 6221,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "VerticalResponse Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Vicarious FPC, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Victoria Ward Center L.l.c",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Victoria Ward Entertainment Center L.l.c",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Victoria Ward, Limited",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Nonresidential Property Managers",
+      "NAICS_code": 531312,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Vignani Solutions Private Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "VirnetX, Inc",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Vornado Realty L.P.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Real Estate Credit",
+      "NAICS_code": 522292,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Vornado Realty Trust (NYSE:VNO)",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Real Estate Credit",
+      "NAICS_code": 522292,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Vue Entertainment Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Air Force Materiel Command",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "WAISL Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "WFCA Integrated Limited",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "WSM Communications Group Limited, Two Businesses",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Ward Centers in Honolulu",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Ward Gateway-Industrial-Village, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Ward Plaza-warehouse, Llc",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Waterlogic Plc",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial and Service Industry Machinery Manufacturing",
+      "NAICS_code": 3333,
+      "HQ_Location": "Ireland"
+    },
+    {
+      "Company_Name": "Waterway Ave Partners, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Waterway Hotel Holdings, LLC",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Wausau Delaware, LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Air Liquide Healthcare America Corporation, Homecare Division",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "WeP Peripherals Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "WeP Solutions Limited (BSE:532373)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Weare4C UK Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "Belgium"
+    },
+    {
+      "Company_Name": "Wells Fargo Bank, National Association",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Wholestyle Packaging",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Wickes Limited",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Building Material Dealers",
+      "NAICS_code": 44419,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "WineDirect, Inc.",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Wine and Distilled Alcoholic Beverage Merchant Wholesalers",
+      "NAICS_code": 42482,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Wipro (Chengdu) Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "China"
+    },
+    {
+      "Company_Name": "Wipro (Shanghai) Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "China"
+    },
+    {
+      "Company_Name": "Wipro (Thailand) Co Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Thailand"
+    },
+    {
+      "Company_Name": "Alfresco Software, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Testing Laboratories",
+      "NAICS_code": 54138,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Wipro Arabia Company Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Saudi Arabia"
+    },
+    {
+      "Company_Name": "Wipro Australia Pty Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Wipro BPO Philippines Ltd., Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Philippines"
+    },
+    {
+      "Company_Name": "Wipro BPO Solutions Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Wipro Cyprus Private Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Offices of Bank Holding Companies",
+      "NAICS_code": 551111,
+      "HQ_Location": "Cyprus"
+    },
+    {
+      "Company_Name": "Wipro Digital",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Wipro Europe",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "France"
+    },
+    {
+      "Company_Name": "Wipro France S.A.S",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "France"
+    },
+    {
+      "Company_Name": "Wipro GE Healthcare Pvt. Ltd.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Surgical and Medical Instrument Manufacturing",
+      "NAICS_code": 339112,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Wipro HealthCare IT Ltd.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Alight HR Services India Pvt Ltd",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Wipro Holdings (UK) Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Business Service Centers",
+      "NAICS_code": 56143,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Wipro Holdings (mauritius) Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Mauritius"
+    },
+    {
+      "Company_Name": "Wipro IT Services Poland S.P. Zoo",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Poland"
+    },
+    {
+      "Company_Name": "Wipro Information Technology Egypt SAE",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "Egypt"
+    },
+    {
+      "Company_Name": "Wipro Information Technology Netherlands BV",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Computer Systems Design Services",
+      "NAICS_code": 541512,
+      "HQ_Location": "Netherlands"
+    },
+    {
+      "Company_Name": "Wipro Infotech Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Wipro Infrastructure Engineering Oy",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing",
+      "NAICS_code": 333924,
+      "HQ_Location": "Finland"
+    },
+    {
+      "Company_Name": "Wipro Insurance Solutions Llc",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Insurance Agencies and Brokerages",
+      "NAICS_code": 52421,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Wipro Japan KK",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Japan"
+    },
+    {
+      "Company_Name": "Wipro LLC",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Deluxe Corporation (NYSE:DLX)",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Alight Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Wipro Limited (East Brunswick, NJ)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Wipro Limited (Singapore Branch)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "Singapore"
+    },
+    {
+      "Company_Name": "Wipro Limited (UK)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Wipro Net Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Wipro Outsourcing Services (ireland) Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Miscellaneous Intermediation",
+      "NAICS_code": 52391,
+      "HQ_Location": "Ireland"
+    },
+    {
+      "Company_Name": "Wipro Poland S.P. Zoo",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Poland"
+    },
+    {
+      "Company_Name": "Wipro Portugal, S.A.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "Portugal"
+    },
+    {
+      "Company_Name": "Wipro Promax Analytics Solutions (europe) Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Wipro Retail UK Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Wipro Technologies Austria Gmbh",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Austria"
+    },
+    {
+      "Company_Name": "All Trade Computer Forms, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Canada"
+    },
+    {
+      "Company_Name": "Wipro Technologies Gmbh",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "Germany"
+    },
+    {
+      "Company_Name": "Wipro Technologies Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Wipro Technologies Limited, Russia",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Russia"
+    },
+    {
+      "Company_Name": "Wipro Technologies S.A DE C.V",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "Mexico"
+    },
+    {
+      "Company_Name": "Wipro Technologies SRL",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Farm Management Services",
+      "NAICS_code": 115116,
+      "HQ_Location": "Romania"
+    },
+    {
+      "Company_Name": "Wipro Technologies South Africa (Proprietary) Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "South Africa"
+    },
+    {
+      "Company_Name": "Wipro Travel Services Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Wipro UK Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Wipro do Brasil Serviços de Tecnologia S.A.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Brazil"
+    },
+    {
+      "Company_Name": "Wipro do Brasil Technologia Ltda",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "Brazil"
+    },
+    {
+      "Company_Name": "All of the Assets of Trust Healthcare Consulting Services, LLC",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Witbe S.A. (ENXTPA:ALWIT)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "France"
+    },
+    {
+      "Company_Name": "Workday, Inc. (NasdaqGS:WDAY)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Wotso Property (ASX:WOT)",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Real Estate Credit",
+      "NAICS_code": 522292,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "XBS Ltd.",
+      "Level": "T2",
+      "Parent": "NGA Human Resources",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "XebiaLabs, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Xiaomi Inc.",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing",
+      "NAICS_code": 33422,
+      "HQ_Location": "China"
+    },
+    {
+      "Company_Name": "arago GmbH",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Germany"
+    },
+    {
+      "Company_Name": "avaamo",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "beqom labs Corporation",
+      "Level": "T2",
+      "Parent": "beqom SA",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "househappy inc.",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Alphabet Inc. (NasdaqGS:GOOG.L)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "mPower Software Services, LLC",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "salesforce.com, inc. (NYSE:CRM)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Altizon Systems Private Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "India"
+    },
+    {
+      "Company_Name": "Amazon.com, Inc. (NasdaqGS:AMZN)",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Electronic Shopping and Mail-Order Houses",
+      "NAICS_code": 4541,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "AmeriLife Group, LLC",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Insurance Agencies and Brokerages",
+      "NAICS_code": 52421,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "American Blue Ribbon Holdings, LLC",
+      "Level": "T2",
+      "Parent": "Cannae Holdings, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Claims Adjusting",
+      "NAICS_code": 524291,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "American Management Systems, Global Energy Practice",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "American Savings Bank",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "DocASAP Inc.",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "American Tire Distributors, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Motor Vehicle Supplies and New Parts Merchant Wholesalers",
+      "NAICS_code": 42312,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Anchor Systems Pty Ltd",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Data Processing, Hosting, and Related Services",
+      "NAICS_code": 518,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Anthem, Inc. (NYSE:ANTM)",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "General Medical and Surgical Hospitals",
+      "NAICS_code": 6221,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Appirio Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Other Computer Related Services",
+      "NAICS_code": 541519,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Appirio Limited",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Apria Finance Holdings Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Apria Healthcare Of New York State, Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",
+      "NAICS_code": 42345,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Apria Healthcare, Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Office Machinery and Equipment Rental and Leasing",
+      "NAICS_code": 53242,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "ApriaDirect.Com, Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Apriacare Management Systems, Inc.",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Future Knowledge Pty Ltd",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Australia"
+    },
+    {
+      "Company_Name": "Arden Partners plc (AIM:ARDN)",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Art Dealers",
+      "NAICS_code": 45392,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Aristocrat Technologies, Inc.",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Aspect Software Group Holdings Ltd.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Custom Computer Programming Services",
+      "NAICS_code": 541511,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Aspect Software Parent, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Assets of Retail Finance International Holdings, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Automation Anywhere, Inc.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Computer and Computer Peripheral Equipment and Software Merchant Wholesalers",
+      "NAICS_code": 42343,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Axeda Corporation",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "STRATEGIC ALLIANCE",
+      "Source": "CAPIQ",
+      "Industry": "Computer Systems Design Services",
+      "NAICS_code": 541512,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Axon Enterprise, Inc. (NasdaqGS:AXON)",
+      "Level": "T2",
+      "Parent": "Metropolitan Police Service",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "BMO Harris Bank National Association",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "BNBS, Inc.",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Hodges-Mace, LLC",
+      "Level": "T1",
+      "Parent": "Alight Solutions LLC",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "Insurance Agencies and Brokerages",
+      "NAICS_code": 52421,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "BNP Paribas SA (ENXTPA:BNP)",
+      "Level": "T2",
+      "Parent": "Porta Communications Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "France"
+    },
+    {
+      "Company_Name": "BREIT Industrial Canyon PA1W01 LLC",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Bank House on King Street",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Bank of America Corporation (NYSE:BAC)",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Bank of America, National Association",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Bank of Hawaii Corporation (NYSE:BOH)",
+      "Level": "T2",
+      "Parent": "The Howard Hughes Corporation",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Banker's Dashboard, LLC",
+      "Level": "T2",
+      "Parent": "Deluxe Corporation",
+      "Partner_Type": "INVESTMENTS",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "United States"
+    },
+    {
+      "Company_Name": "Barclays Bank PLC",
+      "Level": "T2",
+      "Parent": "Apria, Inc.",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Barclays PLC (LSE:BARC)",
+      "Level": "T2",
+      "Parent": "Palace Capital Plc",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "Commercial Banking",
+      "NAICS_code": 52211,
+      "HQ_Location": "United Kingdom"
+    },
+    {
+      "Company_Name": "Belsim S.A.",
+      "Level": "T2",
+      "Parent": "Wipro Limited",
+      "Partner_Type": "SUPPLIER",
+      "Source": "CAPIQ",
+      "Industry": "",
+      "NAICS_code": 0,
+      "HQ_Location": "Belgium"
+    }
+  ]
+}

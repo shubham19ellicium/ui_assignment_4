@@ -1,27 +1,27 @@
-
 var transformedArray = [];
 
 var root = am5.Root.new("chartdiv");
 
 root.setThemes([am5themes_Animated.new(root)]);
 
-function formateStringAuth(string){
-  var regex = /\((?=.*:)([A-Z0-9:]+)\)/;
+function formateStringAuth(string) {
+  var regex = /\((?=.*:)([^)]+)\)/;
+  // var regex = /\((?=.*:)([A-Z0-9:]+)\)/;
   if (regex.test(string)) {
-    var result = string.replace(regex, '').trim();
-    return result
+    var result = string.replace(regex, "").trim();
+    return result;
   }
-  return string
+  return string;
 }
 
-function formatStringBracket(string){
-  var regex = / \(.*?\)/g; 
+function formatStringBracket(string) {
+  var regex = / \(.*?\)/g;
   if (regex.test(string)) {
     var result = string.replace(regex, "");
-    var trimedResult = result.trim()
-    return trimedResult
+    var trimedResult = result.trim();
+    return trimedResult;
   }
-  return string
+  return string;
 }
 
 function transformData(inputData) {
@@ -36,41 +36,43 @@ function transformData(inputData) {
       name: formateStringAuth(item.Company_Name),
       children: [],
       value: 0,
-      level:item.Level
+      level: item.Level,
     };
     if (item.Level === "T1") {
       let node = {
         name: formateStringAuth(item.Company_Name),
         children: [],
         value: 0,
-        level:item.Level
+        level: item.Level,
       };
-      companyNodes[formateStringAuth(item.Company_Name)] = node;  
-      
-    }else{
+      companyNodes[formateStringAuth(item.Company_Name)] = node;
+    } else {
       companyNodes[formateStringAuth(item.Company_Name)] = node;
     }
   });
+  console.log("COMPANY -----> ", JSON.stringify(companyNodes, null, 2));
   inputData.forEach(function (item) {
-    const parentCompanyName = formateStringAuth(item.Parent)
-    const companyName = formateStringAuth(item.Company_Name)
+    const parentCompanyName = formateStringAuth(item.Parent);
+    const companyName = formateStringAuth(item.Company_Name);
     if (companyNodes[companyName]) {
-        if (item.Parent === "") {
-            transformedData.children.push(companyNodes[companyName]);
+      if (item.Parent === "") {
+        transformedData.children.push(companyNodes[companyName]);
+      } else {
+        if (companyNodes[parentCompanyName]) {
+          companyNodes[parentCompanyName].children.push(
+            companyNodes[companyName]
+          );
+          companyNodes[parentCompanyName].value += 1;
         } else {
-            if (companyNodes[parentCompanyName]) {
-                companyNodes[parentCompanyName].children.push(companyNodes[companyName]);
-                companyNodes[parentCompanyName].value += 1;
-            } else {
-            }
         }
+      }
     }
-});
+  });
+  console.log("COMPANY NODE :: ", JSON.stringify(companyNodes, null, 2));
   transformedData.children.push(companyNodes);
 
   return transformedData;
 }
-
 
 const fetchData = async () => {
   const response = await fetch("http://localhost:3000/data");
@@ -81,29 +83,25 @@ const fetchData = async () => {
 async function getData() {
   let data = await fetchData();
   var chartData = transformData(data);
-  
-  console.log("CHART --> ",chartData.children[0]);  
-  
+
+  console.log("CHART --> ", chartData.children[0]);
+
   transformedArray.push(chartData);
 
-  createChart([chartData.children[0]])
-  
+  createChart([chartData.children[0]]);
 }
 
 getData();
 
 function clearSelectOptions(selectElement) {
   while (selectElement.options.length > 0) {
-      selectElement.remove(0);
-
-    }
-    var defaultOption = document.createElement("option");
-    defaultOption.text = "Select option";
-    defaultOption.value = "none";
-    selectElement.add(defaultOption);
+    selectElement.remove(0);
+  }
+  var defaultOption = document.createElement("option");
+  defaultOption.text = "Select option";
+  defaultOption.value = "none";
+  selectElement.add(defaultOption);
 }
-
-
 
 function createChart(data) {
   root.container.children.clear();
@@ -127,26 +125,26 @@ function createChart(data) {
       orientation: "vertical",
     })
   );
-  
-  series.circles.template.adapters.add("fill", function(fill, target) {
-    
-    if (target.dataItem.dataContext.level === 'T1') {
+
+  series.circles.template.adapters.add("fill", function (fill, target) {
+    if (target.dataItem.dataContext.level === "T1") {
       return am5.color(0x1a4eff);
-    } else if (target.dataItem.dataContext.level === 'T2') {
+    } else if (target.dataItem.dataContext.level === "T2") {
       return am5.color(0x333333);
-    } {
-      return am5.color(0xff581a)
     }
-    
+    {
+      return am5.color(0xff581a);
+    }
   });
 
-  series.links.template.adapters.add("stroke", function(fill, target) {
-    if (target.dataItem.dataContext.level === 'T1') {
+  series.links.template.adapters.add("stroke", function (fill, target) {
+    if (target.dataItem.dataContext.level === "T1") {
       return am5.color(0x5d95ff);
-    } else if (target.dataItem.dataContext.level === 'T2') {
+    } else if (target.dataItem.dataContext.level === "T2") {
       return am5.color(0x5d95ff);
-    } {
-      return am5.color(0x5d95ff)
+    }
+    {
+      return am5.color(0x5d95ff);
     }
   });
 
@@ -156,56 +154,59 @@ function createChart(data) {
   });
 
   series.data.setAll(data);
-  
 }
 
-function createAlternateChart(series,data,nodeName){
-  series.circles.template.adapters.add("fill", function(fill, target) {
-    
-    if (target.dataItem.dataContext.level === 'T1') {
+function createAlternateChart(series, data, nodeName) {
+  series.circles.template.adapters.add("fill", function (fill, target) {
+    if (target.dataItem.dataContext.level === "T1") {
       return am5.color(0x1a4eff);
-    } else if (target.dataItem.dataContext.level === 'T2') {
+    } else if (target.dataItem.dataContext.level === "T2") {
       return am5.color(0x333333);
-    } {
-      return am5.color(0xff581a)
     }
-    
-  });
-
-  series.links.template.adapters.add("stroke", function(fill, target) {
-    if (target.dataItem.dataContext.level === 'T1') {
-      return am5.color(0x5d95ff);
-    } else if (target.dataItem.dataContext.level === 'T2') {
-      return am5.color(0x5d95ff);
-    } {
-      return am5.color(0x5d95ff)
+    {
+      return am5.color(0xff581a);
     }
   });
 
-  series.outerCircles.template.adapters.add("stroke", function(stroke, target) {
+  series.links.template.adapters.add("stroke", function (fill, target) {
+    if (target.dataItem.dataContext.level === "T1") {
+      return am5.color(0x5d95ff);
+    } else if (target.dataItem.dataContext.level === "T2") {
+      return am5.color(0x5d95ff);
+    }
+    {
+      return am5.color(0x5d95ff);
+    }
+  });
+
+  series.outerCircles.template.adapters.add(
+    "stroke",
+    function (stroke, target) {
       if (target.dataItem.dataContext.name === nodeName) {
         return am5.color(0x000000);
       }
-      
-    });
+    }
+  );
 
-    series.outerCircles.template.adapters.add("radius", function(redius, target) {
+  series.outerCircles.template.adapters.add(
+    "radius",
+    function (redius, target) {
       if (target.dataItem.dataContext.name === nodeName) {
         return 25;
       }
-      
-    });
-    series.links.template.setAll({
-      strokeWidth: 1,
-      strokeOpacity: 0.5,
-    });
-    series.data.setAll(data);
+    }
+  );
+  series.links.template.setAll({
+    strokeWidth: 1,
+    strokeOpacity: 0.5,
+  });
+  series.data.setAll(data);
 }
 
-function clearArray(array){
+function clearArray(array) {
   if (array) {
-    while(array.length>0){
-      array.pop(1)
+    while (array.length > 0) {
+      array.pop(1);
     }
   }
 }
@@ -224,15 +225,22 @@ function handleSelectChange() {
     },
   ];
 
+  var boilerObject = [
+    {
+      name: "Alight Solutions LLC",
+      value: 0,
+      children: [],
+    }
+  ]
+
   var selection = document.getElementById("select-level-id");
-  
+
   if (selection.value === "none") {
-    getData()
-  }else if (selection.value === "T0") {
-    createChart(data[0].children)
-  }else if (selection.value === "T1") {
-    
-  }else {
+    getData();
+  } else if (selection.value === "T0") {
+    createChart(data[0].children);
+  } else if (selection.value === "T1") {
+  } else {
 
   }
 
@@ -243,43 +251,42 @@ function handleSelectChange() {
   var t0Array = transformedArray[0]["children"];
   var t1Array = transformedArray[0]["children"][0]["children"];
   if (selection.value === "T0") {
-
-  } else if(selection.value === "T1"){
-    if (loadT1List.options.length>1) {
-      
-    }else{
-      clearSelectOptions(loadT1List)
+  } else if (selection.value === "T1") {
+    if (loadT1List.options.length > 1) {
+    } else {
+      clearSelectOptions(loadT1List);
       t1Array.forEach((data, index) => {
         var newOption = document.createElement("option");
         newOption.text = data.name;
         newOption.value = index;
         loadT1List.add(newOption);
-      });    
+      });
     }
 
     var loadT1List = document.getElementById("load-t1-selection");
-    var second =transformedArray[0]["children"][0].children[`${loadT1List.value}`]
+    var second =
+      transformedArray[0]["children"][0].children[`${loadT1List.value}`];
     if (second) {
       data[0].children[0].children.push({
-        name:second.name,
-        level:second.level
-      })
-      clearArray(data[0])
-      createChart(data[0].children)
-    }else{
+        name: second.name,
+        level: second.level,
+      });
+      clearArray(data[0]);
+      createChart(data[0].children);
+    } else {
       t1Array.forEach((element) => {
-        data[0].children[0].children.push({ name: element.name,level:element.level });
+        data[0].children[0].children.push({
+          name: element.name,
+          level: element.level,
+        });
         data[0].children[0].value += 1;
       });
-      createChart(data[0].children)
+      createChart(data[0].children);
     }
-
-  } else  {
-    
-    if (loadT1List.options.length>1) {
-      
-    }else{
-      clearSelectOptions(loadT1List)
+  } else {
+    if (loadT1List.options.length > 1) {
+    } else {
+      clearSelectOptions(loadT1List);
       t1Array.forEach((data, index) => {
         var newOption = document.createElement("option");
         newOption.text = data.name;
@@ -287,33 +294,40 @@ function handleSelectChange() {
         loadT1List.add(newOption);
       });
     }
+    if (loadT1List.value != "none") {
+      console.log("VALUE :: ",loadT1List.value);
+      var completeT2Array = transformedArray[0]["children"][0]["children"][`${loadT1List.value}`]
+      console.log("COMPLETE T2 :: ",JSON.stringify(completeT2Array,null,2));
+  
+      boilerObject[0].children.push(completeT2Array)
 
-    
+      createChart(boilerObject)
+      
+    }
   }
-  var load3 = document.getElementById("load-t2-selection")
+
+
+
+  var load3 = document.getElementById("load-t2-selection");
   if (selection.value === "none") {
-    loadT1List.style.display = "none"
-  }else if (selection.value === "T0") {
-    loadT1List.style.display ="none"
-  }else{
-    loadT1List.style.display ="inline-block"
+    loadT1List.style.display = "none";
+  } else if (selection.value === "T0") {
+    loadT1List.style.display = "none";
+  } else {
+    loadT1List.style.display = "inline-block";
   }
 
   if (selection.value === "T2") {
-    load3.style.display ="inline-block"
-  }else{
-    load3.style.display ="none"
+    load3.style.display = "inline-block";
+  } else {
+    load3.style.display = "none";
   }
-
-  
-
-
 }
 
-function searchNode(){
-  var searchInputId = document.getElementById("node-search-id")
-  var nodeName = searchInputId.value
-  var data = transformedArray
+function searchNode() {
+  var searchInputId = document.getElementById("node-search-id");
+  var nodeName = searchInputId.value;
+  var data = transformedArray;
   root.container.children.clear();
 
   var container = root.container.children.push(
@@ -334,11 +348,9 @@ function searchNode(){
       childDataField: "children",
       orientation: "vertical",
     })
-  )
-    createAlternateChart(series,data[0].children,nodeName)
-  
+  );
+  createAlternateChart(series, data[0].children, nodeName);
 }
-
 
 function selectedT1Level() {
   var data = [
@@ -346,47 +358,62 @@ function selectedT1Level() {
       name: "Alight Solutions LLC",
       value: 0,
       children: [],
-    },
+    }
   ];
   var loadT1List = document.getElementById("load-t1-selection");
+  var loadT0List = document.getElementById("select-level-id");
   var text = loadT1List.options[loadT1List.selectedIndex].text;
   var baseArray = transformedArray[0]["children"][0].children;
   var t0Array = transformedArray[0]["children"][0].children;
   if (text === "Select option") {
     baseArray.forEach((element) => {
-      data[0].children.push({ name: element.name,level:element.level });
+      data[0].children.push({ name: element.name, level: element.level });
       data[0].children[0].value += 1;
     });
-    createChart(data[0].children)
+    if (data[0].children.length > 0) {
+      clearArray(data[0].children)
+    }
+    createChart(data[0].children);
+  } else if(loadT0List.value == "T2" ) {
+    var completeT2Array = transformedArray[0]["children"][0]["children"][`${loadT1List.value}`]
+      console.log("COMPLETE T2 ->>  :: ",JSON.stringify(completeT2Array,null,2));
+      if (completeT2Array) {
+        clearArray(completeT2Array)
+        data[0].children.push(completeT2Array)
+        createChart(data)
+      }
+  }else if (loadT0List.value == "T1") {
+    t0Array.forEach((element) => {
+      if (element.name === `${text}`) {
+        data[0].children.push({ name: element.name, level: element.level });
+        data[0].children[0].value += 1;
+      }
+    });
+    createChart(data);
+    
   }
-  t0Array.forEach((element) => {
-    if (element.name === `${text}`) {
-      data[0].children.push({ name: element.name,level: element.level });
-      data[0].children[0].value += 1;
-      
-    }
-  });
-  createChart(data)
 
-    var load3 = document.getElementById("load-t2-selection")
-    if (loadT1List.value != "none") {
-      load3.style.display = "inline-block"
-      var third = transformedArray[0]["children"][0].children[`${loadT1List.value}`]['children'];
-      clearSelectOptions(load3)
-      third.forEach((element,index) => {
-        var newOption = document.createElement("option");
-          newOption.text = element.name;
-          newOption.value = index;
-          load3.add(newOption);
-      });
-      
-    }else if (loadT1List.value == "none") {
-      load3.style.display = "none"
-    }
+  var load3 = document.getElementById("load-t2-selection");
+  if (loadT1List.value > 0 && loadT0List.value === "T2") {
+    load3.style.display = "inline-block";
+    var third =
+      transformedArray[0]["children"][0].children[`${loadT1List.value}`][
+        "children"
+      ];
+    clearSelectOptions(load3);
+    third.forEach((element, index) => {
+      var newOption = document.createElement("option");
+      newOption.text = element.name;
+      newOption.value = index;
+      load3.add(newOption);
+    });
+  } else {
+    load3.style.display = "none";
+  }
+  
 }
 
-function selectedT2Level(){
-
+function selectedT2Level() {
   var data = [
     {
       name: "Alight Solutions LLC",
@@ -397,21 +424,23 @@ function selectedT2Level(){
 
   var loadT1List = document.getElementById("load-t1-selection");
   var text1 = loadT1List.options[loadT1List.selectedIndex].text;
-
+  console.log("TEXT 1 :: ",text1);
   var loadT2List = document.getElementById("load-t2-selection");
   var text2 = loadT2List.options[loadT2List.selectedIndex].text;
+  console.log("TEXT 2 :: ",text2);
 
-  var second =transformedArray[0]["children"][0].children[`${loadT1List.value}`]
+  var second =
+    transformedArray[0]["children"][0].children[`${loadT1List.value}`];
 
-  var third = transformedArray[0]["children"][0].children[`${loadT1List.value}`].children[`${loadT2List.value}`];
+  var third =
+    transformedArray[0]["children"][0].children[`${loadT1List.value}`].children[
+      `${loadT2List.value}`
+    ];
 
   data[0].children.push({
-    name:second.name,
-    level:second.level,
-    children:[
-      third
-    ]
-  })
-  createChart(data)
-
+    name: second.name,
+    level: second.level,
+    children: [third],
+  });
+  createChart(data);
 }
