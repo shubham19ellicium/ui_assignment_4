@@ -9,47 +9,6 @@
 </head>
 <body>
 
-    <!-- <div class="fill-details-container" id="pop-for-upload">
-        <div class="fill-details-block">
-            <div class="fill-deteil-div">
-                <label for="company-name"><b>Company Name</b></label>
-                <input class="pop-up-input" type="text" placeholder="Company name" name="company-name" id="company-name-id" maxlength="50" required>
-            </div>
-            <div class="fill-deteil-div">
-                <label for="level"><b>Level</b></label>
-                <input class="pop-up-input" type="text" placeholder="Level" name="level" id="level-id" maxlength="50" >
-            </div>
-            <div class="fill-deteil-div">
-                <label for="email"><b>Parent</b></label>
-                <input class="pop-up-input" type="text" placeholder="Parent" name="company-name" id="parent-id" maxlength="50" >
-            </div>
-            <div class="fill-deteil-div">
-                <label for="email"><b>Partner Type</b></label>
-                <input class="pop-up-input" type="text"  name="Partner-type" placeholder="Partner Type" id="partner-type-id" maxlength="50" >
-            </div>
-            <div class="fill-deteil-div">
-                <label for="email"><b>Source</b></label>
-                <input class="pop-up-input" type="text"  name="source" placeholder="Source" id="source-id" maxlength="50" >
-            </div>
-            <div class="fill-deteil-div">
-                <label for="email"><b>Industry</b></label>
-                <input class="pop-up-input" type="text"  name="industry" placeholder="Industry" id="industry-id" maxlength="50" >
-            </div>
-            <div class="fill-deteil-div">
-                <label for="email"><b>NAICS code</b></label>
-                <input class="pop-up-input" type="text"  name="naics" placeholder="NAICS code" id="naics-code-id" maxlength="50" >
-            </div>
-            <div class="fill-deteil-div">
-                <label for="email"><b>HQ Location</b></label>
-                <input class="pop-up-input" type="text"  name="hq" placeholder="HQ Location" id="hq-location-id" maxlength="50" >
-            </div>
-            <div class="pop-up-button-block">
-                <button class="close-btn" onclick="handleUploadData()">Upload</button>
-                <button class="close-btn" onclick="handleClosePopup()">Close</button>
-            </div>             
-        </div>
-    </div> -->
-
     <div class="overlay" id="overlay"></div>
     <div class="form-block" id="pop-for-upload">
         <form onsubmit="handleUploadData()" class="submit-form">
@@ -107,57 +66,12 @@
                 </div>
             </div>
             <div class="pop-up-button-block">
-                <!-- <button class="form-button" onclick="handleUploadData()">Upload</button> -->
                 <button class="form-button" type="submit">Upload</button>
                 <button class="form-button" onclick=" event.preventDefault(); handleClosePopup()">Close</button>
             </div>
         </form>
     </div>
 
-    <!-- <div class="fill-details-container" id="pop-up-update-id">
-        <div class="fill-details-block">
-            <div class="fill-deteil-div">
-                <label for="company-name"><b>ID</b></label>
-                <input class="pop-up-input" type="text" placeholder="ID" name="company-name" id="id-update-id" maxlength="50" disabled>
-            </div>
-            <div class="fill-deteil-div">
-                <label for="company-name"><b>Company Name</b></label>
-                <input class="pop-up-input" type="text" placeholder="Company name" name="company-name" id="company-name-update-id" maxlength="50" required>
-            </div>
-            <div class="fill-deteil-div">
-                <label for="level"><b>Level</b></label>
-                <input class="pop-up-input" type="text" placeholder="Level" name="level" id="level-update-id" maxlength="50" >
-            </div>
-            <div class="fill-deteil-div">
-                <label for="email"><b>Parent</b></label>
-                <input class="pop-up-input" type="text" placeholder="Parent" name="company-name" id="parent-update-id" maxlength="50" >
-            </div>
-            <div class="fill-deteil-div">
-                <label for="email"><b>Partner Type</b></label>
-                <input class="pop-up-input" type="text"  name="Partner-type" placeholder="Partner" id="partner-type-update-id" maxlength="50" >
-            </div>
-            <div class="fill-deteil-div">
-                <label for="email"><b>Source</b></label>
-                <input class="pop-up-input" type="text"  name="source" placeholder="Source" id="source-update-id" maxlength="50" >
-            </div>
-            <div class="fill-deteil-div">
-                <label for="email"><b>Industry</b></label>
-                <input class="pop-up-input" type="text"  name="industry" placeholder="Industry" id="industry-update-id" maxlength="50" >
-            </div>
-            <div class="fill-deteil-div">
-                <label for="email"><b>NAICS code</b></label>
-                <input class="pop-up-input" type="text"  name="naics" placeholder="NAICS code" id="naics-code-update-id" maxlength="50" >
-            </div>
-            <div class="fill-deteil-div">
-                <label for="email"><b>HQ Location</b></label>
-                <input class="pop-up-input" type="text"  name="hq" placeholder="HQ Location" id="hq-location-update-id" maxlength="50" >
-            </div>
-            <div class="pop-up-button-block">
-                <button class="close-btn" onclick="updateDetails(event)">Upload</button>
-                <button class="close-btn" onclick="handleClosePopup()">Close</button>
-            </div>             
-        </div>
-    </div> -->
     <div class="form-block" id="pop-up-update-id">
         <form onsubmit="updateDetails()" class="submit-form">
             <div class="form-header-block">
