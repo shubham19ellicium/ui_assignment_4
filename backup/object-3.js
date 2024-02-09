@@ -18,9 +18,7 @@ function transformData(inputData) {
       transformedData.children.push(companyNodes[item.Company_Name]);
     } else if (companyNodes[item.Parent]) {
       companyNodes[item.Parent].children.push(companyNodes[item.Company_Name]);
-    } else {
-      console.error("Parent not found for:", item.Company_Name);
-    }
+    } 
   });
 
   return transformedData;

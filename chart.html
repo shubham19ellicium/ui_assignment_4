@@ -9,24 +9,33 @@
     <script src="//cdn.amcharts.com/lib/5/hierarchy.js"></script>
     <script src="//cdn.amcharts.com/lib/5/themes/Animated.js"></script>
     <script defer src="./script/chart.js"></script>
+    <!-- <script defer src="./backup/working-chart-2.js"></script> -->
 </head>
 <body>
-    <h1>This is chart page</h1>
-    <select class="form-input" name="select-level" id="select-level-id" onchange="selectedLevel()" required>
-        <option value="">Select from option</option>
-        <option value="T0">T0</option>
-        <option value="T1">T1</option>
-        <option value="T2">T2</option>
-
-    </select>
-    <select class="form-input" name="select-level" id="load-t1-selection" onchange="selectedT1Level()" >
-        <option value="none">Select from option</option>
-
-    </select>
-    <!-- <select class="form-input" name="select-level" id="load-t2-selection" onchange="selectedT2Level()" >
-        <option value="none">Select from option</option>
-
-    </select> -->
+    <div class="container">
+        <div class="header-operation">
+            <div class="header-left">
+                <select class="form-input" name="select-level" id="select-level-id" onchange="handleSelectChange()" required>
+                    <option value="none">Display All</option>
+                    <option value="T0">T0</option>
+                    <option value="T1">T1</option>
+                    <option value="T2">T2</option>
+                </select>
+                <select class="form-input-1" name="select-level" id="load-t1-selection" onchange="selectedT1Level()" >
+                    <option value="none">Select from option</option>
+                </select>
+            
+                <select class="form-input-2" name="select-level" id="load-t2-selection" onchange="selectedT2Level()" >
+                    <option value="none">Select from option</option>
+                </select>
+            </div>
+            <!-- <div class="search-block">
+                <input class="search-input" id="node-search-id" type="text" maxlength="30">
+                <button onclick="searchNode()" class="search-button">Search</button>
+            </div> -->
+        </div>
+        
+    </div>
 
     <div id="chartdiv">
 

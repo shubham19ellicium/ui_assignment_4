@@ -272,8 +272,8 @@ function incrementPage(){
     });
     console.log("PAGE NUMBER :: ",Number(pageNumber));
     console.log("PAGE NUMBER :: ",Number(pageEndIndex));
-    if(Number(pageNumber) < Number(pageEndIndex)){
-        pageNumber += Number(1)
+    if(parseInt(pageNumber) < parseInt(pageEndIndex)){
+        pageNumber += parseInt(1)
     }
     renderDataFromArray()
     updateIndex()
@@ -288,7 +288,7 @@ function decrementPage(){
         top: 0,
         behavior: 'smooth'
     });
-    if(Number(pageNumber) > Number(1)){
+    if(Number(pageNumber) > Number(1)){   // change it to parseInt
         pageNumber -= 1
     }
     renderDataFromArray()
@@ -333,7 +333,7 @@ function displayPostForm(){
     background3.classList.add("blur")
 
     document.getElementById('overlay').style.display = 'block';
-    popUpId.classList.add("active")  
+    popUpId.classList.add("active")
 }
 
 function handleClosePopup() {
@@ -494,7 +494,9 @@ async function sortArrayData(param,method) {
         
         gotArray = gotArray.sort((a,b)=>{
             if(a[param] < b[param]){
-                return -1
+                return -1 // if a should come before b then "-1" .Then it means that the elements should be swapped because they are in inverse order. 
+                // return 1 - if b should come before a then "1" it means that the elements are in the right order.
+                // return 0 - it means that the elements are either equal or have equal positions
             }
         })
     }else if (method === "desc") {

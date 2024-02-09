@@ -1,0 +1,613 @@
+{
+    "name": "Root",
+    "children": [
+      {
+        "name": "Alight Solutions LLC",
+        "children": [
+          {
+            "name": "Life Account, LLC",
+            "children": [],
+            "value": 0
+          },
+          {
+            "name": "Metropolitan Police Service",
+            "children": [
+              {
+                "name": "Capgemini SE (ENXTPA:CAP)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Equiniti Group plc (LSE:EQN)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "KBR, Inc. (NYSE:KBR)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Leidos Ltd.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Northgate Public Services Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Penna Consulting plc",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "SCISYS Group PLC",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Sopra Steria Group SA (ENXTPA:SOP)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Transport for London",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Axon Enterprise, Inc. (NasdaqGS:AXON)",
+                "children": [],
+                "value": 0
+              }
+            ],
+            "value": 10
+          },
+          {
+            "name": "NGA Human Resources",
+            "children": [
+              {
+                "name": "Business Information Management Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Digital Print Solutions (Scotland) Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Engage Technologies Ltd.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "First Software Group",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Hays Consulting & Solutions Group",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Human & Legal Resources Ltd.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Link Group Consultants Ltd.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "MVM Holdings, Ltd.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Neller Pty Ltd",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Nga Human Resources Sweden Ab",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Northgate Information Solutions UK Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Northgate Uk Co",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "NorthgateArinso Belgium LLC",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "NorthgateArinso, Inc.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Northgatearinso Canada Inc",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Northgatearinso Ireland Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "OneClickHR Plc, Payroll Bureau and Employee Intranet Products",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "PROIV Technology, Inc.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "PWA Group Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Prolog Business Solutions Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Rebus Group Ltd.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Specialist Computer Programming Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "The Association for Payroll Services",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "XBS Ltd.",
+                "children": [],
+                "value": 0
+              }
+            ],
+            "value": 24
+          },
+          {
+            "name": "Palace Capital Plc (LSE:PCA)",
+            "children": [],
+            "value": 0
+          },
+          {
+            "name": "Porta Communications Plc",
+            "children": [
+              {
+                "name": "CentralNic Group Plc (AIM:CNIC)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Cognatio Solutions Ltd",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Crazy Horse Brand Response Ltd",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Duke Royalty Limited (AIM:DUKE)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Elaghmore Partners",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Enables IT Group plc",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Enterprise Center, The",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Great Portland Estates Plc (LSE:GPOR)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Hawk Investment Holdings Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Heguang International Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Hermes Investment Management Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Icas Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Innogy Innovation Hub",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Inovalis Real Estate Investment Trust (TSX:INO.UN)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "21:12 Communications Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Jurys Inn Group Ltd.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "21:12 Direct LLP",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "LaSalle Investment Management Inc.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Menzies Distribution Ltd",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Moorepay Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Brussels Sprl",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Communications (Beijing) Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Communications (Hong Kong) Ltd",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Communications (Singapore) Pte. Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Communications FZ-LLC",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Communications LLP",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Communications Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Communications Ltd",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Communications Pty Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Media Holdings Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate PR Holdings Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Public Relations Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Threadneedle Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Newgate Trading Europe Ltd",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Nikko Asset Management Co., Ltd.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Nio Capital",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "PPS (Local & Regional) Ltd.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "PPS Group Ltd.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Pinduoduo Inc. (NasdaqGS:PDD)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "PowerHouse Energy Group Plc (AIM:PHE)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Project 13 Communications Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Sec Newgate Uk Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Seneca Investment Managers Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Slc Registrars Ltd",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Summit Marketing Services Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Taylor Wimpey plc (LSE:TW.)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "The Bank of New York Mellon Corporation (NYSE:BK)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Access Communications (Uk) Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Twenty20 Media Vision Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "TwentyOne Twelve Communications LLP",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "VICIS, Inc.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "WFCA Integrated Limited",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "WSM Communications Group Limited, Two Businesses",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Waterlogic Plc",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Xiaomi Inc.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "BNP Paribas SA (ENXTPA:BNP)",
+                "children": [],
+                "value": 0
+              }
+            ],
+            "value": 56
+          },
+          {
+            "name": "SKS Technologies Group Limited (ASX:SKS)",
+            "children": [],
+            "value": 0
+          },
+          {
+            "name": "Scottish Police Authority",
+            "children": [
+              {
+                "name": "Restore plc (AIM:RST)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Siemens plc",
+                "children": [],
+                "value": 0
+              }
+            ],
+            "value": 2
+          },
+          {
+            "name": "The Howard Hughes Corporation (NYSE:HHC)",
+            "children": [],
+            "value": 0
+          },
+          {
+            "name": "Wipro Limited (BSE:507685)",
+            "children": [],
+            "value": 0
+          },
+          {
+            "name": "Workday and Cornerstone OnDemand Business of Wipro Limited",
+            "children": [],
+            "value": 0
+          },
+          {
+            "name": "Cannae Holdings, Inc. (NYSE:CNNE)",
+            "children": [],
+            "value": 0
+          },
+          {
+            "name": "beqom SA",
+            "children": [
+              {
+                "name": "Beqom North America",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Microsoft Corporation (NasdaqGS:MSFT)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "Umanis SA (ENXTPA:ALUMS)",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "beqom labs Corporation",
+                "children": [],
+                "value": 0
+              }
+            ],
+            "value": 4
+          },
+          {
+            "name": "Carlson Management Consulting, Inc.",
+            "children": [],
+            "value": 0
+          },
+          {
+            "name": "ChoiceHealth, Inc.",
+            "children": [],
+            "value": 0
+          },
+          {
+            "name": "Continental Stock Transfer & Trust Company",
+            "children": [
+              {
+                "name": "Continental/FRS Plan Administration, Inc.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "TS Partners, Inc.",
+                "children": [],
+                "value": 0
+              }
+            ],
+            "value": 2
+          },
+          {
+            "name": "Deluxe Corporation (NYSE:DLX)",
+            "children": [],
+            "value": 0
+          },
+          {
+            "name": "DocASAP Inc.",
+            "children": [],
+            "value": 0
+          },
+          {
+            "name": "Future Knowledge Pty Ltd",
+            "children": [],
+            "value": 0
+          },
+          {
+            "name": "Hodges-Mace, LLC",
+            "children": [
+              {
+                "name": "ContinuousHealth, Inc.",
+                "children": [],
+                "value": 0
+              },
+              {
+                "name": "SmartBen, Inc.",
+                "children": [],
+                "value": 0
+              }
+            ],
+            "value": 2
+          }
+        ],
+        "value": 19
+      }
+    ]
+  }

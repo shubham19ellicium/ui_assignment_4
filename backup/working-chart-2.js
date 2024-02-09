@@ -1,4 +1,3 @@
-
 var transformedArray = [];
 
 var root = am5.Root.new("chartdiv");
@@ -82,8 +81,6 @@ async function getData() {
   let data = await fetchData();
   var chartData = transformData(data);
   
-  console.log("CHART --> ",chartData.children[0]);  
-  
   transformedArray.push(chartData);
 
   createChart([chartData.children[0]])
@@ -127,6 +124,20 @@ function createChart(data) {
       orientation: "vertical",
     })
   );
+  // series.get("colors").set("colors", [
+  //   am5.color(0x095256),
+  //   am5.color(0x087f8c),
+  //   am5.color(0x5aaa95),
+  //   am5.color(0x86a873),
+  //   am5.color(0xbb9f06)
+  // ]);
+  
+  // if(element.value == 10){
+  //   series.circles.template.setAll({
+      // radius: 20,
+      // fill: am5.color(0x150000),
+  //   });
+  // }
   
   series.circles.template.adapters.add("fill", function(fill, target) {
     
@@ -150,12 +161,14 @@ function createChart(data) {
     }
   });
 
+
   series.links.template.setAll({
     strokeWidth: 1,
     strokeOpacity: 0.5,
   });
-
+  
   series.data.setAll(data);
+  
   
 }
 
@@ -243,7 +256,7 @@ function handleSelectChange() {
   var t0Array = transformedArray[0]["children"];
   var t1Array = transformedArray[0]["children"][0]["children"];
   if (selection.value === "T0") {
-
+    
   } else if(selection.value === "T1"){
     if (loadT1List.options.length>1) {
       
